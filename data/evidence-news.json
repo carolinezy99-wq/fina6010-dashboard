@@ -1,0 +1,1339 @@
+{
+  "reviewedAt": "2026-09-26",
+  "items": [
+    {
+      "id": "wrap25",
+      "title": "Oil pullback eases pressure on bonds and stocks",
+      "date": "2026-09-25",
+      "source": "Bloomberg · SWI",
+      "link": "https://www.swissinfo.ch/eng/stocks-climb-as-oil-retreats-on-us-iran-deal-hopes%3a-markets-wrap/92116327",
+      "assets": [
+        "spx",
+        "ndx",
+        "dji",
+        "nky",
+        "hsi",
+        "sx5e",
+        "eur",
+        "jpy",
+        "gbp",
+        "chf",
+        "aud",
+        "cny",
+        "wti",
+        "au",
+        "ag",
+        "us10y",
+        "us30y",
+        "de10y",
+        "jp10y",
+        "gb10y",
+        "ca10y",
+        "btc",
+        "eth",
+        "sol",
+        "xrp",
+        "bnb",
+        "doge"
+      ],
+      "excerpt": "Hopes of a diplomatic opening in the Iran war pulled oil down and stocks up, and took some of the volatility out of Treasuries. Brent settled around $104 after the New York Times reported that Iran offered to reopen the Strait of Hormuz and restart nuclear talks. The S&P 500 rose 0.5%, and a chipmaker gauge had its longest weekly advance since May. Thirty-year yields stayed at a two-decade high and edged only slightly higher. Money markets still price three Federal Reserve hikes over the next year, because high energy costs are still feeding inflation.",
+      "scope": "Market context",
+      "reviewed": true,
+      "effects": {
+        "spx": {
+          "sign": 1,
+          "mechanism": "Chipmakers extended their longest weekly advance since May, and those companies make up a large part of the US indices. Brent’s fall toward $104 after Iran’s Hormuz proposal also eased inflation worries.",
+          "outlook": "Upward bias if oil keeps easing. With money markets pricing three Fed hikes and the 30-year yield near a two-decade high, rising yields are the main risk.",
+          "days": [
+            "2026-09-25"
+          ]
+        },
+        "ndx": {
+          "sign": 1,
+          "mechanism": "Chipmakers extended their longest weekly advance since May, and those companies make up a large part of the US indices. Brent’s fall toward $104 after Iran’s Hormuz proposal also eased inflation worries.",
+          "outlook": "Upward bias if oil keeps easing. With money markets pricing three Fed hikes and the 30-year yield near a two-decade high, rising yields are the main risk.",
+          "days": [
+            "2026-09-25"
+          ]
+        },
+        "dji": {
+          "sign": 1,
+          "mechanism": "Brent’s fall toward $104 after Iran offered to reopen Hormuz eased the inflation worry that had pushed up rate-hike bets, so investors paid more for US shares. Calmer Treasuries also removed some of the week’s pressure on stock valuations.",
+          "outlook": "Upward bias if oil keeps easing. With money markets pricing three Fed hikes and the 30-year yield near a two-decade high, rising yields are the main risk.",
+          "days": [
+            "2026-09-25"
+          ]
+        }
+      }
+    },
+    {
+      "id": "wrap24",
+      "title": "Higher oil prices revive inflation and bond-market worries",
+      "date": "2026-09-24",
+      "source": "Bloomberg · SWI",
+      "link": "https://www.swissinfo.ch/eng/stocks-waver-as-oil-rally-triggers-bond-volatility%3a-markets-wrap/92109832",
+      "assets": [
+        "spx",
+        "ndx",
+        "dji",
+        "nky",
+        "hsi",
+        "sx5e",
+        "eur",
+        "jpy",
+        "gbp",
+        "chf",
+        "aud",
+        "cny",
+        "wti",
+        "au",
+        "ag",
+        "us10y",
+        "us30y",
+        "de10y",
+        "jp10y",
+        "gb10y",
+        "ca10y",
+        "btc",
+        "eth",
+        "sol",
+        "xrp",
+        "bnb",
+        "doge"
+      ],
+      "excerpt": "Bond volatility made traders reluctant to take risk. Stocks wavered on the worry that high oil prices will add to inflation and push the Federal Reserve to raise rates. Thirty-year yields hit the highest level since 2004, and a larger Treasury buyback did not calm the sell-off. Brent settled near $107 after reports that the US and Iran are exploring a phased reopening of the Strait of Hormuz. Money markets fully price three Fed hikes over the next year. Investors are also asking for more yield because of government spending and corporate borrowing for the AI build-out.",
+      "scope": "Market context",
+      "reviewed": true,
+      "bank": "Fed"
+    },
+    {
+      "id": "wrap23",
+      "title": "Inflation concerns push up yields and weigh on equities",
+      "date": "2026-09-23",
+      "source": "Bloomberg · SWI",
+      "link": "https://www.swissinfo.ch/eng/stocks-fall-as-inflation-jitters-boost-bond-yields:-markets-wrap/92103124",
+      "assets": [
+        "spx",
+        "ndx",
+        "dji",
+        "nky",
+        "hsi",
+        "sx5e",
+        "eur",
+        "jpy",
+        "gbp",
+        "chf",
+        "aud",
+        "cny",
+        "wti",
+        "au",
+        "ag",
+        "us10y",
+        "us30y",
+        "de10y",
+        "jp10y",
+        "gb10y",
+        "ca10y",
+        "btc",
+        "eth",
+        "sol",
+        "xrp",
+        "bnb",
+        "doge"
+      ],
+      "excerpt": "Stocks fell with bonds as higher oil revived inflation worries, reinforced by US business activity rising at the fastest pace since 2021. Brent settled around $103. A weak $70 billion sale of five-year notes pushed Treasury yields on most maturities to almost two-decade highs, and the dollar rose against the major currencies. Both manufacturing and services reported stronger orders and output. Fed Governor Michael Barr said further tightening is likely needed to get inflation back to target. Money markets fully price three hikes over the next year.",
+      "scope": "Market context",
+      "reviewed": true
+    },
+    {
+      "id": "nikkei25",
+      "title": "Japan: chip demand and dividend buying lift the Nikkei",
+      "date": "2026-09-25",
+      "source": "Reuters · IndoPremier",
+      "link": "https://www.indopremier.com/module/newsDetail.php?group_news=IPOTNEWS&halaman=1&jdl=Japan_s_Nikkei_rises_for_fifth_session_on_AI_rally__dividend_hunt&name=&news_id=244196&q=japan+shares%2C+nikkei+225%2C+topix%2C&search=y_general&taging_subtype=Develop+Market",
+      "assets": [
+        "nky"
+      ],
+      "excerpt": "The Nikkei rose for a fifth straight session on Friday, up 1.30% to 66,364.20, and just over 2% for the holiday-shortened week. Topix rose 1.31% to 4,128.59. Daiwa strategist Daisuke Hashizume said investors bought before Monday’s deadline to qualify for interim dividends, but chip demand was the larger support. Bank shares, which tend to pay higher dividends, rose 4.08% and led the Tokyo Stock Exchange’s 33 industry groups: Mitsubishi UFJ gained 3.95% and Sumitomo Mitsui 3.59%. Tokyo Electron rose 4.82% and Advantest 2.84%, the biggest contributors to the Nikkei’s gain. Of the 225 names, 171 rose and 51 fell.",
+      "scope": "Asset report",
+      "reviewed": true,
+      "effects": {
+        "nky": {
+          "sign": 1,
+          "mechanism": "Tokyo Electron (+4.82%) and Advantest (+2.84%) were the largest contributors, so the chip rally pulled the Nikkei up with them. Bank shares rose 4.08% as investors bought before Monday’s interim-dividend deadline. That deadline is a one-session reason; the chip buying is the one that can last past Monday.",
+          "outlook": "The rise can continue if chip names such as Tokyo Electron and Advantest keep attracting buyers. It weakens if that chip bid fades after Monday’s dividend cutoff, or if a technology sell-off, like Friday’s 3.18% drop in SoftBank, spreads."
+        }
+      }
+    },
+    {
+      "id": "ecbai",
+      "title": "ECB research: earnings expectations underpin the AI equity rally",
+      "date": "2026-09-22",
+      "source": "ECB",
+      "link": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2026/html/ecb.ebbox202606_06~ef276e3f80.en.html",
+      "assets": [
+        "spx",
+        "ndx",
+        "dji",
+        "nky"
+      ],
+      "excerpt": "ECB research highlights AI-linked profit expectations and the risk of an abrupt change in sentiment.",
+      "scope": "Research context",
+      "reviewed": true
+    },
+    {
+      "id": "ecb24",
+      "title": "ECB bulletin reviews inflation risks and September tightening",
+      "date": "2026-09-24",
+      "source": "ECB",
+      "link": "https://www.ecb.europa.eu/press/economic-bulletin/html/eb202606.en.html",
+      "assets": [
+        "eur",
+        "sx5e",
+        "de10y",
+        "hsi",
+        "cu",
+        "wh"
+      ],
+      "excerpt": "The bulletin reiterates the September 10 rate increase and inflation risks; publication this week does not make that an additional hike.",
+      "scope": "Policy / economic background",
+      "reviewed": true,
+      "bank": "ECB"
+    },
+    {
+      "id": "ecbfci",
+      "title": "ECB research explains how US rate expectations spill into Europe",
+      "date": "2026-09-24",
+      "source": "ECB",
+      "link": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2026/html/ecb.ebbox202606_05~26c3018e11.en.html",
+      "assets": [
+        "eur",
+        "sx5e",
+        "de10y",
+        "us10y",
+        "us30y",
+        "gb10y",
+        "ca10y"
+      ],
+      "excerpt": "US policy expectations can affect European financial conditions even when the ECB itself does not change rates.",
+      "scope": "Research context",
+      "reviewed": true
+    },
+    {
+      "id": "snb24",
+      "title": "SNB holds its policy rate at zero",
+      "date": "2026-09-24",
+      "source": "Swiss National Bank",
+      "link": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
+      "assets": [
+        "chf"
+      ],
+      "excerpt": "On 24 September the Swiss National Bank left its policy rate at 0%. Sight deposits at the SNB are paid that rate up to a threshold; above it, the discount stays at 0.25 percentage points. The SNB said it is still willing to buy or sell foreign currency if that is needed to keep monetary conditions appropriate. Inflation rose from 0.6% in May to 0.8% in August, mainly because oil-product prices pushed goods inflation positive for the first time since May 2024. The Bank said medium-term inflation pressure has increased only slightly, and that energy inflation, now elevated, is likely to ease over 2027.",
+      "scope": "Central-bank decision",
+      "reviewed": true,
+      "bank": "SNB"
+    },
+    {
+      "id": "rba22",
+      "title": "RBA board member examines wage-price spiral risk",
+      "date": "2026-09-22",
+      "source": "Reserve Bank of Australia",
+      "link": "https://www.rba.gov.au/speeches/2026/sp-mpb-2026-09-22.html",
+      "assets": [
+        "aud"
+      ],
+      "excerpt": "On 22 September, RBA board member Iain Ross spoke in a personal capacity, not for the nine-member Monetary Policy Board. His argument is that Australia’s labour-market rules today are different from the 1970s and 1980s, when wages and prices chased each other. He said there is no evidence of a wage-price spiral now, and that recent data make one unlikely. A spiral, as he defined it, would start with a demand or cost shock, firms raising prices, and workers then winning wage rises that push costs and prices up again.",
+      "scope": "Central-bank speech",
+      "reviewed": true,
+      "bank": "RBA"
+    },
+    {
+      "id": "fed21",
+      "title": "Collins explains why she supported the Fed rate increase",
+      "date": "2026-09-21",
+      "source": "AP · WDIV",
+      "link": "https://gmg-wdiv-prod.cdn.arcpublishing.com/business/2026/09/21/federal-reserve-official-says-fighting-inflation-likely-to-be-painful/",
+      "assets": [
+        "eur",
+        "jpy",
+        "gbp",
+        "chf",
+        "aud",
+        "cny",
+        "us10y",
+        "us30y",
+        "au",
+        "ag"
+      ],
+      "excerpt": "Fed official Collins cited persistent inflation and energy risks in explaining her support for tighter policy.",
+      "scope": "Central-bank interview",
+      "reviewed": true,
+      "bank": "Fed"
+    },
+    {
+      "id": "yen25",
+      "title": "Japan’s finance minister flags US concern over yen weakness",
+      "date": "2026-09-25",
+      "source": "Reuters · AOL",
+      "link": "https://www.aol.com/articles/japan-says-trump-voiced-concern-022104000.html",
+      "assets": [
+        "jpy",
+        "nky",
+        "jp10y"
+      ],
+      "excerpt": "Finance Minister Satsuki Katayama said on Friday that President Trump, at Tuesday’s New York meeting with Prime Minister Sanae Takaichi, raised the weak yen. Takaichi confirmed it: the US side said the weak yen was making trade difficult, and she replied that an undervalued yen is a problem in principle. She said the meeting did not discuss monetary or fiscal policy, and that her government’s economic stance is unchanged. Katayama presented this as a shared Tokyo–Washington worry about the yen’s slide, even after their joint intervention in July. It is a currency comment, not a new Bank of Japan rate decision.",
+      "scope": "FX / intervention report",
+      "reviewed": true,
+      "effects": {
+        "jpy": {
+          "sign": -1,
+          "mechanism": "The risk of official yen buying makes bets against the yen less attractive. Buying back yen supports it, which means USD/JPY falls.",
+          "outlook": "USD/JPY could fall further if intervention warnings intensify. Stronger US rate expectations work in the opposite direction; confidence is limited."
+        }
+      }
+    },
+    {
+      "id": "china20",
+      "title": "China leaves one-year and five-year loan prime rates unchanged",
+      "date": "2026-09-20",
+      "source": "Reuters · Moneycontrol",
+      "link": "https://www.moneycontrol.com/world/china-keeps-key-lending-rates-unchanged-for-16th-straight-month-at-3-article-14033698.html",
+      "assets": [
+        "cny",
+        "hsi",
+        "cu"
+      ],
+      "excerpt": "China left the one-year loan prime rate at 3.00% and the five-year rate at 3.50% on Sunday, the 16th month without a change. All 21 respondents in a Reuters survey had expected no move. Mizuho’s Serena Zhou said that unless domestic demand weakens much more, broad easing in the fourth quarter is less likely while the Federal Reserve is more hawkish. BNP Paribas’s Jacqueline Rong said China is late in its rate-cutting cycle and her base case is that the People’s Bank stays on hold for the rest of the year. The loan prime rate is a bank lending benchmark, not the Fed’s policy rate.",
+      "scope": "China policy report",
+      "reviewed": true,
+      "bank": "PBOC"
+    },
+    {
+      "id": "trade25",
+      "title": "US says details of China trade talks will follow on Monday",
+      "date": "2026-09-25",
+      "source": "Reuters · Yahoo Finance",
+      "link": "https://finance.yahoo.com/economy/policy/articles/details-us-china-trade-talks-134049346.html",
+      "assets": [
+        "hsi",
+        "cny",
+        "cu",
+        "wh",
+        "aud",
+        "spx",
+        "ndx"
+      ],
+      "excerpt": "Greer said further trade-deal details were due Monday. Until terms are released, the effect on demand and tariffs remains uncertain.",
+      "scope": "Trade / demand context",
+      "reviewed": true
+    },
+    {
+      "id": "gas25",
+      "title": "Natural gas retreats after a sharp supply-driven rally",
+      "date": "2026-09-25",
+      "source": "Trading Economics",
+      "link": "https://tradingeconomics.com/commodity/natural-gas/news/586737",
+      "assets": [
+        "ng"
+      ],
+      "excerpt": "On Friday, US natural gas fell to $3.15 per MMBtu as traders took profits after Thursday’s jump to a 13-week high. TC Energy’s Columbia Gas Transmission pipeline in Appalachia declared force majeure after an unexpected mechanical fault in West Virginia; that outage had produced the largest one-day price gain since January. EIA inventories rose 53 Bcf in the week ended 18 September, cutting the surplus over the five-year average to 95 Bcf from 118 Bcf, after hot weather lifted cooling demand. Flows to the nine major LNG plants averaged 17.8 bcfd in September, up from 17.2 bcfd in August, even with the 0.8-bcfd Cove Point plant offline for maintenance. September production is still near a record 112.8 bcfd, but daily output has been falling in Louisiana and West Virginia.",
+      "scope": "Asset report",
+      "reviewed": true,
+      "effects": {
+        "ng": {
+          "sign": -1,
+          "mechanism": "Thursday’s force majeure on TC Energy’s Columbia Gas line in West Virginia tightened Appalachian supply and drove the largest one-day gain since January. Friday’s fall to $3.15 was traders selling to bank that gain. The outage, the smaller 53 Bcf storage build, and falling daily output in Louisiana and West Virginia are still the supply backdrop.",
+          "outlook": "The Friday drop can extend if the Columbia Gas fault is fixed and traders keep taking profits. Prices can turn back up if the force majeure stays in place, daily output in Louisiana and West Virginia keeps falling, or LNG feedgas stays near 17.8 bcfd. The next EIA storage print is the check."
+        }
+      }
+    },
+    {
+      "id": "gas24",
+      "title": "Gas storage build is below the seasonal average",
+      "date": "2026-09-24",
+      "source": "Trading Economics",
+      "link": "https://tradingeconomics.com/commodity/natural-gas/news/586591",
+      "assets": [
+        "ng"
+      ],
+      "excerpt": "On Thursday, US natural gas rose to $3.2 per MMBtu, the highest since 8 July. Energy firms added 53 billion cubic feet in the week ended 18 September, below the 77 bcf added a year earlier and the five-year average of 76 bcf, as hot weather boosted cooling demand. Inventories stood 2.9% above normal, down from 3.7% the week before. Lower-48 production was on track to fall to an 11-week low of 108.4 bcfd on Thursday, mainly in Louisiana and West Virginia. Average flows to the nine major LNG plants reached 17.8 bcfd in September, up from 17.2 bcfd in August, despite the planned shutdown of Berkshire Hathaway’s 0.8-bcfd Cove Point plant.",
+      "scope": "Asset report",
+      "reviewed": true,
+      "effects": {
+        "ng": {
+          "sign": 1,
+          "mechanism": "A 53 bcf storage build, against a five-year average of 76 bcf, leaves a thinner cushion after a hot week of cooling demand. Output heading for an 11-week low of 108.4 bcfd, led by Louisiana and West Virginia, means less gas coming to market on the day. That can lift the price; it does not stop a later round of profit-taking.",
+          "outlook": "The Thursday rise holds if the storage surplus keeps shrinking and Louisiana and West Virginia output stays weak. It fades if production recovers, weather turns milder through early October, or Cove Point’s 0.8 bcfd maintenance ends and changes the LNG balance. The next EIA release is the check."
+        }
+      }
+    },
+    {
+      "id": "storage24",
+      "title": "EIA weekly US natural-gas storage release",
+      "date": "2026-09-24",
+      "source": "US EIA",
+      "link": "https://ir.eia.gov/ngs/ngs.html",
+      "assets": [
+        "ng"
+      ],
+      "excerpt": "Official weekly inventory report. This rolling source updates each Thursday; use its displayed release date when cross-checking.",
+      "scope": "Official data release",
+      "reviewed": true,
+      "rolling": true
+    },
+    {
+      "id": "grains25",
+      "title": "Wheat: export demand, planting and Black Sea risks",
+      "date": "2026-09-25",
+      "source": "Price Futures Group · Jack Scoville",
+      "link": "https://blog.pricegroup.com/2026/09/25/grains-report-09-25-2026/",
+      "assets": [
+        "wh"
+      ],
+      "excerpt": "Jack Scoville’s 25 September note said wheat was lower in both US markets while the US–China summit and the Ukraine–Russia war continued. Both sides of that war report an export pace more than 50% below a year ago. US weekly export sales were average, not strong. Winter-wheat planting is 19% complete and the spring-wheat harvest is finished. Chicago’s trend is mixed to down: December support at 685, 677 and 665 cents, resistance at 730, 736 and 742.",
+      "scope": "Named analyst commentary",
+      "reviewed": true,
+      "effects": {
+        "wh": {
+          "sign": -1,
+          "mechanism": "US weekly export sales were only average, so there was no demand surprise to bid wheat up. At the same time Ukraine and Russia each report exports more than 50% below last year, which keeps a supply risk under the market. Those two facts pull in opposite directions, which matches Scoville’s mixed-to-down Chicago trend.",
+          "outlook": "Prices can keep easing if export sales stay average and planting reaches beyond the current 19% of winter wheat without a weather problem. They can turn up if Black Sea shipments fall further from the already-halved pace, or if the next weekly sales report is clearly stronger. December Chicago support on this note is 685 cents."
+        }
+      }
+    },
+    {
+      "id": "grains24",
+      "title": "Grain market commentary on export demand and trade talks",
+      "date": "2026-09-24",
+      "source": "Price Futures Group · Jack Scoville",
+      "link": "https://blog.pricegroup.com/2026/09/24/grains-report-09-24-2026/",
+      "assets": [
+        "wh"
+      ],
+      "excerpt": "Broker research provides agricultural context; commentary is an analyst view rather than an official data release.",
+      "scope": "Named analyst commentary",
+      "reviewed": true
+    },
+    {
+      "id": "bonds25",
+      "title": "A bond manager sees value after the Treasury sell-off",
+      "date": "2026-09-25",
+      "source": "Bloomberg · SWI",
+      "link": "https://www.swissinfo.ch/eng/lombard-odier-turns-bullish-on-treasuries-after-five-year-hiatus/92119487",
+      "assets": [
+        "us10y",
+        "us30y",
+        "de10y",
+        "jp10y",
+        "gb10y",
+        "ca10y"
+      ],
+      "excerpt": "Bloomberg reported that Lombard Odier Investment Management has turned overweight US Treasuries for the first time in at least five years. The firm’s stated reason is that the higher yields now look more attractive than stocks. The rest of the piece was not available beyond that lead, so this is the manager’s positioning, not a full account of why yields moved.",
+      "scope": "Counterview / global rates",
+      "reviewed": true
+    },
+    {
+      "id": "gold25",
+      "title": "Gold rebounds intraday but faces weekly rate pressure",
+      "date": "2026-09-25",
+      "source": "Reuters · MarketScreener",
+      "link": "https://uk.marketscreener.com/news/gold-rises-but-on-track-for-weekly-loss-as-fed-rate-hike-expectations-build-ce785adfdc8dff2c",
+      "assets": [
+        "au",
+        "ag"
+      ],
+      "excerpt": "Friday’s oil pullback helped gold, while higher yields weighed on its weekly performance. Silver is related precious-metal context, not the identical instrument.",
+      "scope": "Precious-metals report",
+      "reviewed": true,
+      "effects": {
+        "au": {
+          "sign": 1,
+          "mechanism": "Lower oil prices can reduce inflation and rate-hike concerns. Lower expected interest returns on cash reduce the opportunity cost of owning gold, which pays no interest.",
+          "outlook": "Gold has rebound potential if yields ease. A renewed oil shock and stronger rate-hike expectations could reverse that support."
+        }
+      }
+    },
+    {
+      "id": "fed16",
+      "title": "Federal Reserve September policy decision",
+      "date": "2026-09-16",
+      "source": "Federal Reserve",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "assets": [
+        "eur",
+        "jpy",
+        "gbp",
+        "chf",
+        "aud",
+        "cny",
+        "us10y",
+        "us30y"
+      ],
+      "excerpt": "The Fed raised its target range to 3.75–4.00%. This predates the current news week.",
+      "scope": "Standing policy baseline",
+      "reviewed": true,
+      "bank": "Fed",
+      "baseline": true
+    },
+    {
+      "id": "boe17",
+      "title": "Bank of England September policy decision",
+      "date": "2026-09-17",
+      "source": "Bank of England",
+      "link": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+      "assets": [
+        "gbp",
+        "gb10y"
+      ],
+      "excerpt": "Bank Rate stayed at 3.75%; three of nine members preferred a rise to 4%. This is an earlier decision.",
+      "scope": "Standing policy baseline",
+      "reviewed": true,
+      "bank": "BoE",
+      "baseline": true
+    },
+    {
+      "id": "hsi25",
+      "title": "Hong Kong shares fall in holiday-thinned trading",
+      "date": "2026-09-25",
+      "source": "Reuters · IndoPremier",
+      "link": "https://www.indopremier.com/module/newsDetail.php?group_news=IPOTNEWS&halaman=1&jdl=Hong_Kong_stocks_fall_amid_thin_trade__Trump_Xi_summit_in_focus&name=&news_id=244255&q=Hong+Kong+stocks%2C+hang+seng%2C&search=y_general&taging_subtype=Develop+Market",
+      "assets": [
+        "hsi"
+      ],
+      "excerpt": "The Hang Seng fell 1% on Friday to 24,510.09, a two-month low, in holiday-thinned trade. The Hang Seng China Enterprises Index fell 1.2%. Insurance and technology led the drop: AIA lost 2.7% and Alibaba 1.5%. Volumes were light ahead of the Mid-Autumn Festival. Mainland markets and southbound Stock Connect were closed and reopen on Monday. Investors were waiting on Thursday’s Trump–Xi summit in Washington. ANZ’s Khoon Goh said it produced no breakthrough on AI, trade, Taiwan or Iran, but did set a floor under the relationship. UBP’s Carlos Casanova said the trade truce was extended while technology and geopolitics remain unresolved; the next test is the APEC summit in Shenzhen.",
+      "scope": "Asset report",
+      "reviewed": true,
+      "effects": {
+        "hsi": {
+          "sign": -1,
+          "mechanism": "AIA (−2.7%) and Alibaba (−1.5%) are heavy index names, so their drops pull the Hang Seng down. Southbound Stock Connect was shut and mainland markets were closed, so the usual mainland bid was absent and the remaining trade was thin. Thin trade can make a 1% index move larger than the news alone would.",
+          "outlook": "A rebound needs either a reopening of Stock Connect on Monday with mainland buying, or a concrete result from the Trump–Xi talks. Goh’s point was that the summit only set a floor, and Casanova still sees technology and geopolitics unresolved, so reopening the connect by itself is not a reason to expect the 24,510 low to reverse."
+        }
+      }
+    },
+    {
+      "id": "micar22",
+      "title": "European central banks submit proposals on crypto regulation",
+      "date": "2026-09-22",
+      "source": "ECB / ESCB",
+      "link": "https://www.ecb.europa.eu/press/consultationresponse/pdf/ecb.conresp202609_micarreview.en.pdf?c026ff0fd6c52a4eb29d725e6fec3cbb=",
+      "assets": [
+        "btc",
+        "eth",
+        "sol",
+        "xrp",
+        "bnb",
+        "doge"
+      ],
+      "excerpt": "A consultation response on MiCAR: regulatory background, not an enacted rule or proof of a particular token’s price driver.",
+      "scope": "Sector regulation · PDF",
+      "reviewed": true
+    },
+    {
+      "id": "boj18",
+      "date": "2026-09-18",
+      "title": "BOJ sets overnight policy rate at around 1.25%",
+      "source": "Bank of Japan",
+      "link": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf",
+      "assets": [
+        "jpy",
+        "jp10y",
+        "nky"
+      ],
+      "bank": "BOJ",
+      "baseline": true,
+      "reviewed": true,
+      "scope": "Earlier policy decision · not a new daily catalyst",
+      "excerpt": "On 18 September, the BOJ raised its overnight rate target to around 1.25%. This is an earlier policy baseline, not evidence of a new rate increase this week."
+    },
+    {
+      "id": "wrap21",
+      "title": "Stocks jump on AI optimism as AMD tops $1 trillion",
+      "date": "2026-09-21",
+      "source": "Bloomberg · SWI",
+      "link": "https://www.swissinfo.ch/eng/stocks-jump-on-ai-optimism-as-amd-tops-%241-trillion%3a-markets-wrap/92090060",
+      "excerpt": "A rally in technology giants sent stocks to their best day since early August: the Nasdaq 100 rose 2.8% and the S&P 500 1.5%. Chipmakers surged as early signs of success for Meta’s AI agent sparked enthusiasm; Meta jumped 11% and AMD topped $1 trillion in market value. Oil sank on hopes for diplomatic efforts to end the war in Iran, Brent settled around $100 and Treasury 10-year yields fell below 5%.",
+      "effects": {
+        "ndx": {
+          "sign": 1,
+          "mechanism": "The Nasdaq is weighted toward large technology and chip companies, so an 11% jump in Meta and AMD’s move past $1 trillion lift the index directly. Cheaper oil and a 10-year yield back below 5% also make those companies’ future profits worth more today.",
+          "outlook": "Upward bias while the AI rally broadens and the 10-year stays under 5%. It fades if oil rebounds or the Fed signals more hikes.",
+          "days": [
+            "2026-09-21"
+          ]
+        },
+        "us10y": {
+          "sign": -1,
+          "mechanism": "Brent’s drop to about $100 eased fears that oil would keep inflation high, so investors accepted a lower yield and bought Treasuries. A yield below 5% means bond prices rose.",
+          "outlook": "The yield stays lower only if oil keeps falling. A rebound in crude or hawkish Fed speakers would push it back above 5%.",
+          "days": [
+            "2026-09-21"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "ndx",
+        "us10y"
+      ]
+    },
+    {
+      "id": "oil21",
+      "title": "Brent falls to $100 as Strait of Hormuz oil flows increase",
+      "date": "2026-09-21",
+      "source": "Bloomberg · World Oil",
+      "link": "https://www.worldoil.com/news/2026/9/21/brent-falls-to-100-as-strait-of-hormuz-oil-flows-increase/",
+      "excerpt": "The October WTI contract, which expires Tuesday, fell about 4.5% and Brent settled 3.4% lower near $100 for a fourth straight loss. Saudi oil moving through Hormuz averaged about 2.9 million barrels a day in the six days to 18 September, up from about 700,000 in August (JPMorgan satellite data), and Trump told Fox News he would “probably” be open to meeting Iran’s President Pezeshkian at the UN General Assembly.",
+      "effects": {
+        "wti": {
+          "sign": -1,
+          "mechanism": "More Saudi barrels getting through Hormuz and the prospect of US–Iran talks reduce the risk of a supply shortage. Traders then pay less of a premium for crude, so WTI falls.",
+          "outlook": "Downward bias while Hormuz flows keep rising. The drop reverses if the UN talks fail or drone attacks hit Saudi exports again.",
+          "days": [
+            "2026-09-21"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "wti"
+      ]
+    },
+    {
+      "id": "ndx22",
+      "title": "Nasdaq notches another new high",
+      "date": "2026-09-22",
+      "source": "Kiplinger",
+      "link": "https://www.kiplinger.com/investing/stocks/nasdaq-notches-another-new-high-stock-market-today",
+      "excerpt": "The Nasdaq Composite rose 0.5% to 27,244, a new record close, as several AI stocks kept climbing, while the Dow fell 0.4% and the S&P 500 was fractionally lower. WTI crude fell for a fifth straight day after Saudi Arabia said it was close to reopening a key oil pipeline damaged in a drone attack.",
+      "effects": {
+        "ndx": {
+          "sign": 1,
+          "mechanism": "Continued buying in AI and chip shares lifts the Nasdaq more than the Dow or S&P, because those stocks make up a larger share of it. A fifth day of falling oil also eases inflation worries that would otherwise weigh on growth stocks.",
+          "outlook": "Upward bias while AI buying continues. The risk is higher Treasury yields, which would cut the value of future tech earnings.",
+          "days": [
+            "2026-09-22"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "ndx"
+      ]
+    },
+    {
+      "id": "stocks23",
+      "title": "US stocks fall as 10-year Treasury yield hits highest since 2007",
+      "date": "2026-09-23",
+      "source": "Reuters · IEX",
+      "link": "https://www.iex.nl/Nieuws/878783/US-stocks-fall-as-10-year-Treasury-yield-hits-highest-since-2007.aspx",
+      "excerpt": "US shares fell and the benchmark 10-year Treasury yield jumped 13.89 basis points to 5.106%, its highest since 2007 and biggest one-day rise since April 2025, after data showed US business activity racing to a more-than-five-year high in September. The Treasury drew very weak demand for a $70 billion five-year note sale, which sold at the highest auction yield since 2007. The Nasdaq Composite fell 1.13%, a sharp reversal after a record high on Tuesday; the S&P 500 dropped 0.75% and the Dow 0.68%.",
+      "effects": {
+        "ndx": {
+          "sign": -1,
+          "mechanism": "A 10-year yield above 5.1% lowers today’s value of profits expected far in the future, and Nasdaq technology companies depend most on those future profits. That is why the Nasdaq fell more than the S&P 500 or the Dow.",
+          "outlook": "Downward pressure while yields stay above 5%. Next check: whether October Fed hike odds keep rising.",
+          "days": [
+            "2026-09-23"
+          ]
+        },
+        "us10y": {
+          "sign": 1,
+          "mechanism": "Business activity at a more-than-five-year high raised the expected path of Fed rates, and very weak demand at the $70 billion five-year auction forced sellers to offer a higher yield. Higher yields mean Treasury prices fell.",
+          "outlook": "Upward bias while the data stay strong and Fed hike odds rise. A softer inflation print or a better-received auction would ease it.",
+          "days": [
+            "2026-09-23"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "ndx",
+        "us10y"
+      ]
+    },
+    {
+      "id": "oil23",
+      "title": "Oil settles up around 4% as Iran’s president vows to never surrender",
+      "date": "2026-09-23",
+      "source": "Reuters · Euronext",
+      "link": "https://live.euronext.com/en/financial-news/oil-settles-around-4-irans-president-vows-never-surrender",
+      "excerpt": "Brent settled up $3.83, or 3.86%, at $103.08 and November WTI gained $1.64, or 1.81%, to $92.16, as traders weighed Iranian President Pezeshkian’s vow never to surrender a day after Trump warned he could “annihilate” Iran. Early on Wednesday, WTI had touched its lowest since 1 September.",
+      "effects": {
+        "wti": {
+          "sign": -1,
+          "mechanism": "The printed −2.6% is a contract roll, not a price fall: Yahoo’s continuous WTI series switched from the expired October contract ($94.59 on Tuesday) to November, which closed at $92.16. On the same November contract, WTI actually rose 1.81% as Iran’s defiance revived the supply-risk premium.",
+          "outlook": "Upward risk while US–Iran rhetoric escalates. Compare like-for-like November prices, not the rolled series.",
+          "days": [
+            "2026-09-23"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "wti"
+      ]
+    },
+    {
+      "id": "nky24",
+      "title": "Japanese stocks mixed despite tech rally",
+      "date": "2026-09-24",
+      "source": "Yonhap Infomax",
+      "link": "https://en.infomaxai.com/news/articleView.html?idxno=140645",
+      "excerpt": "The Nikkei 225 closed at 65,513.99, up 495.04 points (0.76%), as it caught up with AI and semiconductor gains made during Japan’s Silver Week holiday (19–23 September), when the Philadelphia Semiconductor Index surged more than 8%. Tokyo Electron and Advantest rose about 2% and 3%, while rising government bond yields held back the broader market.",
+      "effects": {
+        "nky": {
+          "sign": 1,
+          "mechanism": "Chip-equipment makers such as Advantest and Tokyo Electron carry heavy weights in the price-weighted Nikkei, so their catch-up with the 8% US chip rally lifted the index. Rising government bond yields weighed on the rest of the market, which is why gains faded.",
+          "outlook": "Upward bias while US chip stocks hold their gains. Rising JGB yields are the main risk to the rally.",
+          "days": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "nky"
+      ]
+    },
+    {
+      "id": "yen21",
+      "title": "Dollar-yen recovers losses from rate check",
+      "date": "2026-09-21",
+      "source": "Yonhap Infomax",
+      "link": "https://en.infomaxai.com/news/articleView.html?idxno=140278",
+      "excerpt": "USD/JPY traded at 157.335 in New York, up 0.603 yen, recovering gains given up on 18 September after Japanese media reported a Bank of Japan “rate check”, a possible step before intervention. With Tokyo shut for the Silver Week holiday, traders judged that the fall had gone too far and that intervention at these levels was unlikely.",
+      "effects": {
+        "jpy": {
+          "sign": 1,
+          "mechanism": "The Fed’s hike and hawkish Fed speakers keep US rates well above Japan’s 1.25%, so holding dollars pays more than holding yen. Once the intervention scare faded, that rate gap pushed USD/JPY back up.",
+          "outlook": "Upward bias while the US–Japan rate gap stays wide. Any real Japanese intervention would reverse it sharply.",
+          "days": [
+            "2026-09-21"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "jpy"
+      ]
+    },
+    {
+      "id": "chf22",
+      "title": "Swiss franc gains as US dollar declines on increased risk appetite",
+      "date": "2026-09-22",
+      "source": "FXStreet · TMGM",
+      "link": "https://www.tmgm.com/en/analysis/market-news/article/swiss-franc-gains-as-us-dollar-declines-on-increased-risk-appetite-202609220430",
+      "excerpt": "USD/CHF fell for a fourth consecutive day to about 0.8200 as the US dollar declined on risk-on sentiment around trade and diplomatic prospects, with traders watching the upcoming US–China summit. UOB strategists said upside momentum had faded and expected a 0.8155–0.8255 range.",
+      "effects": {
+        "chf": {
+          "sign": -1,
+          "mechanism": "Hopes for US–China and US–Iran diplomacy reduced demand for the dollar as a haven, so the dollar gave back part of the previous week’s gain against the franc. The Fed’s hawkish tone limited the fall.",
+          "outlook": "Range-bound between about 0.8155 and 0.8255. A break higher needs a wider US rate advantage.",
+          "days": [
+            "2026-09-22"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "chf"
+      ]
+    },
+    {
+      "id": "gbp23",
+      "title": "British pound sells off as US surveys outpace the UK’s",
+      "date": "2026-09-23",
+      "source": "FXStreet · TMGM",
+      "link": "https://www.tmgm.com/en/analysis/market-news/article/british-pound-sells-off-hard-as-us-surveys-outpace-the-uks-202609232224",
+      "excerpt": "Wednesday’s flash PMIs showed US business growing at its fastest pace since July 2021, with services at 58.7 against a 56 forecast, while UK services slipped to a three-month low of 51.7. GBP/USD fell to its lowest since early July, and Fed Governor Barr said further increases are likely to be needed.",
+      "effects": {
+        "gbp": {
+          "sign": -1,
+          "mechanism": "Strong US data and Barr’s comments raised the chance of another Fed hike, while weaker UK activity makes a Bank of England hike less likely. Money follows the higher expected return, so the dollar gained against sterling.",
+          "outlook": "Downward bias while the US–UK growth and rate gap widens. The Bank of England speakers on Thursday are the next check.",
+          "days": [
+            "2026-09-23"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "gbp"
+      ]
+    },
+    {
+      "id": "aud24",
+      "title": "Australian dollar tumbles amid soaring US yields, ahead of jobs data",
+      "date": "2026-09-24",
+      "source": "Octa",
+      "link": "https://en.octabroker.com/markets/news/view/1267101/",
+      "excerpt": "AUD/USD slid more than 1% to 0.7039 from a peak of 0.7118 as the US 10-year yield surged 15.5 basis points to 5.11%, its highest since 2007, on strong US PMIs that reinforced the case for more Fed tightening. In Australia, September’s manufacturing PMI contracted and the composite PMI fell from 52.7 to 50.8.",
+      "effects": {
+        "aud": {
+          "sign": -1,
+          "mechanism": "A jump in US yields widens the return from holding dollars over Australian dollars, and the Aussie is also sold when global risk appetite falls. Weak Australian PMIs added to the pressure.",
+          "outlook": "Downward bias while US yields stay above 5%. An RBA hike on 29 September, which ING expects, would support the currency.",
+          "days": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "aud"
+      ]
+    },
+    {
+      "id": "aud-week",
+      "title": "RBA preview: a decisive hike to keep inflation in check",
+      "date": "2026-09-25",
+      "source": "ING THINK",
+      "link": "https://think.ing.com/downloads/pdf/article/rba-preview-a-decisive-hike-to-keep-inflation-in-check",
+      "excerpt": "ING said the Australian dollar had a rough week, hit by poor risk sentiment and the global bond selloff, and that its fair-value model shows AUD/USD undervalued beyond 1.5 standard deviations. Markets price 22bp for the RBA on 29 September, while Fed funds futures price 90bp of US hikes by July 2027.",
+      "effects": {
+        "aud": {
+          "sign": -1,
+          "mechanism": "The week’s global bond selloff, led by US yields above 5%, made dollar assets pay more and hit risk-sensitive currencies like the Aussie. With markets pricing far more US than Australian tightening, the rate gap moved against AUD.",
+          "outlook": "ING expects a 25bp RBA hike on 29 September and sees the decline as overdone, with a year-end target of 0.72. A test below 0.700 is the near-term risk.",
+          "weekly": true
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "aud"
+      ]
+    },
+    {
+      "id": "gas22",
+      "title": "Nymex climbs amid near-term tightening",
+      "date": "2026-09-22",
+      "source": "Energy Intelligence",
+      "link": "https://www.energyintel.com/000001a0-c978-da15-a1ed-cbf8245c0000",
+      "excerpt": "October gas futures jumped 12.9¢ on Tuesday to $2.965 per million Btu. Gelber & Associates put US production plus Canadian imports at 115.6 bcf/d, “its weakest level in two weeks”, while residential and commercial demand rose 28% to 11.2 bcf/d as a brief cool shot reached key consuming regions and power burn rebounded 6% to 41.1 bcf/d.",
+      "effects": {
+        "ng": {
+          "sign": 1,
+          "mechanism": "Lower supply and higher heating and power demand on the same day tighten the near-term gas balance, so buyers pay more for the October contract. That recovered Monday’s fall.",
+          "outlook": "Gains are fragile: forecasts show the heating lift fading as temperatures moderate into early October. Thursday’s EIA storage report is the next check.",
+          "days": [
+            "2026-09-22"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "ng"
+      ]
+    },
+    {
+      "id": "gilt22",
+      "title": "UK gilt yields fall as oil slides below $100",
+      "date": "2026-09-22",
+      "source": "Trading Economics",
+      "link": "https://tradingeconomics.com/united-kingdom/government-bond-yield/news/585636",
+      "excerpt": "UK 10-year gilt yields fell about eight basis points on Monday 21 September as oil resumed its slide, and extended the fall to 5.20%, their lowest since 8 September, early on Tuesday. Brent fell below $100 on reports that Iran could reopen the Strait of Hormuz if the US lifted its blockade of Iranian ports.",
+      "effects": {
+        "gb10y": {
+          "sign": -1,
+          "mechanism": "Cheaper oil lowers the UK inflation outlook, so investors accept a lower yield on gilts. A lower yield means gilt prices rose.",
+          "outlook": "The fall may not last: August borrowing came in at £18.3 billion, above the £15.5 billion expected, and Brent is rebounding. Next month’s Autumn Budget is the key test.",
+          "days": [
+            "2026-09-21"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "gb10y"
+      ]
+    },
+    {
+      "id": "cad24",
+      "title": "Canada 10Y bond yield hits 34-month high",
+      "date": "2026-09-24",
+      "source": "Trading Economics",
+      "link": "https://tradingeconomics.com/canada/government-bond-yield/news/586613",
+      "excerpt": "Canada’s 10-year government bond yield rose to 3.99%, the highest since November 2023, and has gained 36.3 basis points over the past four weeks. The Bank of Canada faces inflation concerns while energy prices remain elevated.",
+      "effects": {
+        "ca10y": {
+          "sign": 1,
+          "mechanism": "Canadian yields followed the US Treasury selloff, where the 10-year hit its highest since 2007 on strong data and a weak auction. Elevated energy prices also make a Bank of Canada hike more likely, which pushes yields up.",
+          "outlook": "Upward bias while US yields stay high and oil stays elevated. Easing oil prices, as happened after Iran-talk hopes, would pull the yield back from 4%.",
+          "days": [
+            "2026-09-23"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "ca10y"
+      ]
+    },
+    {
+      "id": "jgb25",
+      "title": "Japan core CPI (Aug) 2.6%, up from 2.3%",
+      "date": "2026-09-25",
+      "source": "Newsquawk",
+      "link": "https://www.newsquawk.com/headlines/boj-core-cpi-yy-aug-26-prev-23",
+      "excerpt": "Japan’s August core CPI accelerated to 2.6% year on year from 2.3%. Newsquawk noted that such a sustained upward drift tends to bring forward speculation on the pace of Bank of Japan tightening, feeding first through JGB yields.",
+      "effects": {
+        "jp10y": {
+          "sign": 1,
+          "mechanism": "Faster inflation raises the expected path of Bank of Japan rates, already lifted to 1.25% on 18 September, so investors demand a higher JGB yield. US Treasury yields above 5% this week added to the upward pull.",
+          "outlook": "Upward bias while inflation keeps rising and US yields stay above 5%. The next Tokyo CPI and BOJ board comments are the checks.",
+          "days": [
+            "2026-09-25"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "jp10y"
+      ]
+    },
+    {
+      "id": "doge21",
+      "title": "Dogecoin jumped 14% with no Musk post behind it — $795M of liquidations did the work",
+      "date": "2026-09-21",
+      "source": "FinanceFeeds",
+      "link": "https://financefeeds.com/dogecoin-jumped-14-with-no-musk-post-behind-it-795m-of-liquidations-did-the-work/",
+      "excerpt": "DOGE traded from an intraday low of $0.08536 to a high of $0.09784 as CoinGlass data showed about $795 million of crypto liquidations, roughly $667.7 million of them short positions. Bitcoin broke higher first, and DOGE futures open interest rose 15%, showing traders were adding leveraged exposure.",
+      "effects": {
+        "doge": {
+          "sign": 1,
+          "mechanism": "Traders who had bet on falling prices were forced to buy back when Bitcoin climbed past $85,000, and that forced buying lifted the most volatile coins most. Dogecoin, a high-beta meme coin, therefore rose far more than Bitcoin.",
+          "outlook": "Momentum can continue while leverage keeps building, but a rally driven by short squeezes fades when forced buying stops. Watch whether DOGE holds $0.10.",
+          "days": [
+            "2026-09-21"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "doge"
+      ]
+    },
+    {
+      "id": "doge22",
+      "title": "Dogecoin jumps to highest price in months",
+      "date": "2026-09-22",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/378934/dogecoin-price-jumps-highest-months",
+      "excerpt": "Dogecoin spiked to an intraday high of $0.1059, its highest since June, after X announced trading partnerships with Gemini, Kraken, Coinbase, Moomoo and Interactive Brokers that let users trade from the timeline. Derivatives open interest jumped about 10% in a single hour to around $350 million.",
+      "effects": {
+        "doge": {
+          "sign": 1,
+          "mechanism": "X’s trading integrations brought new attention to the coin most linked to Musk, and leveraged buyers pushed it through the $0.10 level. Pepe and Shiba Inu also rose as the whole meme-coin group rallied.",
+          "outlook": "Leverage is doing much of the lifting, so the move can reverse quickly. The 50-day average is still below the 200-day, a longer-term bearish sign.",
+          "days": [
+            "2026-09-22"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "doge"
+      ]
+    },
+    {
+      "id": "crypto23",
+      "title": "Crypto markets hammered as Avalanche and Dogecoin lead broad sell-off",
+      "date": "2026-09-23",
+      "source": "Business Upturn",
+      "link": "https://businessupturn.com/usa/money/cryptocurrency/crypto-markets-hammered-on-wednesday-evening-as-avalanche-and-dogecoin-lead-broad-sell-off/",
+      "excerpt": "Losses spread across all eight major digital assets on Wednesday evening: Bitcoin fell 2.04% to $84,435.97, Ethereum 2.72% to $2,678.35, XRP 4.45% to $1.50 and Dogecoin 7.79% to $0.09. The report said the pattern, heavier losses in smaller tokens, pointed to market-wide de-risking rather than a coin-specific cause.",
+      "effects": {
+        "doge": {
+          "sign": -1,
+          "mechanism": "After two days of leveraged buying, the US bond selloff pushed investors out of risky assets, and long positions in DOGE were liquidated as it fell back below $0.10. The most speculative coins fell hardest.",
+          "outlook": "Further downside if Bitcoin keeps sliding. $0.095–$0.10 is the level traders are watching.",
+          "days": [
+            "2026-09-24"
+          ]
+        },
+        "xrp": {
+          "sign": -1,
+          "mechanism": "The broad crypto sell-off on Wednesday evening in New York, 24 September in HKT, pulled XRP down with Bitcoin. Rising US yields made risky assets less attractive.",
+          "outlook": "US spot-XRP ETF inflows continued ($14.89 million on 24 September), which may limit the decline.",
+          "days": [
+            "2026-09-24"
+          ]
+        },
+        "eth": {
+          "sign": -1,
+          "mechanism": "The Treasury selloff that day, with the 10-year yield at its highest since 2007, pushed investors out of risky assets, and Ether fell with Bitcoin. The decline was broad rather than specific to Ethereum.",
+          "outlook": "Further weakness if yields keep rising. A stable Bitcoin above $84,000 would limit it.",
+          "days": [
+            "2026-09-23"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "doge",
+        "xrp",
+        "eth"
+      ]
+    },
+    {
+      "id": "xrp25",
+      "title": "XRP price rallies amid renewed institutional demand",
+      "date": "2026-09-25",
+      "source": "Finbold",
+      "link": "https://finbold.com/xrp-price-performance-today-amid-renewed-institutional-demand/",
+      "excerpt": "XRP rose about 4% to $1.57 as trading volume climbed 55.85% to about $7.37 billion. US spot XRP ETFs took in about $52.95 million this week, their 11th consecutive week of inflows, and wallets holding 1–10 million XRP accumulated 470 million tokens, worth over $724 million, in the five days to Thursday (Santiment).",
+      "effects": {
+        "xrp": {
+          "sign": 1,
+          "mechanism": "Steady ETF inflows and large holders buying reduce the XRP available to sell, so the price rises. The rally held even though Bitget, an exchange, was hacked for about $157 million of tokens.",
+          "outlook": "Upward bias while ETF inflows continue. $1.60 is resistance; a failure there would leave XRP range-bound.",
+          "days": [
+            "2026-09-25"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "xrp"
+      ]
+    },
+    {
+      "id": "doge-week",
+      "title": "Dogecoin hits $0.10 after 15% rally: can DOGE hold the breakout?",
+      "date": "2026-09-23",
+      "source": "KuCoin",
+      "link": "https://www.kucoin.com/blog/dogecoin-15-rally-doge-0-10-breakout",
+      "excerpt": "Dogecoin surged more than 15% to just above $0.10, outperforming every major cryptocurrency tracked by CoinDesk, as Bitcoin held above $85,600 and more than $1 billion in crypto positions were liquidated over 24 hours, including $844 million of bearish bets. X’s new trading partnerships added attention to the meme coin.",
+      "effects": {
+        "doge": {
+          "sign": 1,
+          "mechanism": "Most of the week’s gain came on Monday and Tuesday, when forced short covering and X’s trading integrations pushed DOGE through $0.10. Wednesday’s broad crypto sell-off took back part of it, and the rest held.",
+          "outlook": "Holding the weekly gain needs real spot buying once short covering fades. Whether $0.10 becomes support is the test.",
+          "weekly": true
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "doge"
+      ]
+    },
+    {
+      "id": "gold25k",
+      "title": "Gold caps weekly loss as Fed bets, 5.2% yields limit rebound",
+      "date": "2026-09-25",
+      "source": "Kitco News",
+      "link": "https://www.kitco.com/news/article/2026-09-25/gold-caps-weekly-loss-fed-bets-52-yields-limit-rebound-kitco-pm-report",
+      "excerpt": "Spot gold was near $4,289.70 an ounce, up 0.38%, as oil fell on renewed US–Iran diplomacy hopes, while rising Treasury yields and Fed rate-hike expectations capped the rebound. Fed funds futures priced about a 68.6% chance of another hike next month, the 10-year yield reached the 5.2% area, its highest since 2007, and one-year inflation expectations rose to 4.6%.",
+      "effects": {
+        "au": {
+          "sign": 1,
+          "mechanism": "Cheaper oil eased some of the inflation fear behind the rate-hike bets, and a softer dollar made gold cheaper for non-US buyers, so bargain hunters returned. Gold pays no interest, so a 10-year yield near 5.2% kept the rebound small.",
+          "outlook": "Range-bound while yields stay above 5%: the next Fed signal and the August PCE inflation report decide the direction. Support is near $4,298 on futures.",
+          "days": [
+            "2026-09-25"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "au"
+      ]
+    },
+    {
+      "id": "silver25",
+      "title": "Silver bounces as yields, dollar and crude back off",
+      "date": "2026-09-25",
+      "source": "FXEmpire",
+      "link": "https://www.fxempire.com/forecasts/article/silver-xag-forecast-silver-bounces-as-yields-dollar-and-crude-back-off-1628167",
+      "excerpt": "Spot silver bounced from the $63 area on Friday, where buyers had also stepped in after the 16 September Fed decision, as the dollar, Treasury yields and crude oil all backed off together. Thursday’s drop was not silver-specific: rising crude lifted the 10-year yield near 5.15% and the 30-year to 5.446%, and the whole metals complex gave ground.",
+      "effects": {
+        "ag": {
+          "sign": 1,
+          "mechanism": "Lower crude reduced the inflation worry driving yields higher, and a weaker dollar makes silver cheaper for foreign buyers. Silver swings more than gold, so it bounced harder once that pressure paused.",
+          "outlook": "Fragile: another oil rally could lift yields and send silver back toward $62.98. Holding above that level keeps the 50-day average in play.",
+          "days": [
+            "2026-09-25"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "ag"
+      ]
+    },
+    {
+      "id": "copper25",
+      "title": "COMEX copper stays pressured around the $6.7 mark",
+      "date": "2026-09-25",
+      "source": "Capital Market",
+      "link": "https://www.capitalmarket.com/markets/news/commodity-pre-session-news/base-metals-preview-comex-copper-stays-pressured-around-$6-7-mark/1733867",
+      "excerpt": "COMEX copper futures were pressured by surging yields and a firm dollar, slipping from record highs to $6.77 a pound, down 0.29% on the day. US stocks had recovered from their lows on Thursday, with the Nasdaq and S&P 500 closing roughly flat.",
+      "effects": {
+        "cu": {
+          "sign": -1,
+          "mechanism": "Higher US yields point to slower growth and raise the cost of holding metal, and a firm dollar makes dollar-priced copper dearer for other buyers. Both pulled copper back from its record high.",
+          "outlook": "Pressure stays while yields rise and the dollar stays firm. A retreat in yields would let copper move back toward its record.",
+          "days": [
+            "2026-09-25"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "cu"
+      ]
+    },
+    {
+      "id": "btc25",
+      "title": "Bitcoin price near $84K as macro pressures weigh on sentiment",
+      "date": "2026-09-25",
+      "source": "Bitcoin.com News",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-near-84k-macro-pressures-weigh-sentiment/",
+      "excerpt": "Bitcoin dipped to $83,229 at about 10:05 a.m. EST before stabilising near $84,000, having given back most of Monday’s $5,000-plus surge after failing a second time above $87,000. Block Scholes said rising US bond yields and $100 oil created strong macroeconomic pressure, while spot ETF inflows earlier in the week were the largest since October.",
+      "effects": {
+        "btc": {
+          "sign": -1,
+          "mechanism": "Bond yields above 5% make a non-yielding asset like Bitcoin less attractive, and $100 oil keeps the Fed leaning toward more hikes. Profit-taking after the failed push above $87,000 added to the selling.",
+          "outlook": "Spot ETF inflows and Strategy’s first Bitcoin purchase in nearly a month support the price. A further rise in yields would test the $83,000 area again.",
+          "days": [
+            "2026-09-25",
+            "2026-09-26"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "btc"
+      ]
+    },
+    {
+      "id": "crypto26",
+      "title": "Crypto market: altcoins start rotation rally, DeFi tokens rally broadly",
+      "date": "2026-09-26",
+      "source": "Lookonchain",
+      "link": "https://lookonchain.com/feeds/74259",
+      "excerpt": "According to HTX data, Bitcoin fell below $84,000 to $83,900 and Ethereum traded at $2,688, while SOL surged past $120 with a 24-hour gain of 3.4% and BNB traded at $776. Total crypto market value rose 0.3% to $2.989 trillion as money rotated into DeFi tokens such as ENA (+13.94%), JTO (+13.38%) and JUP.",
+      "effects": {
+        "sol": {
+          "sign": 1,
+          "mechanism": "Money rotating out of Bitcoin into DeFi tokens favours Solana, whose network hosts many of them, including JTO and JUP. That demand lifted SOL above $120.",
+          "outlook": "Upward bias while the altcoin rotation lasts. A renewed fall in Bitcoin would likely pull SOL back below $120.",
+          "days": [
+            "2026-09-25",
+            "2026-09-26"
+          ]
+        },
+        "eth": {
+          "sign": 0,
+          "mechanism": "Ether stayed near $2,690 because the new buying went into smaller DeFi tokens rather than the two largest coins. Bitcoin’s slip below $84,000 held it back.",
+          "outlook": "Flat-to-firm while DeFi activity grows. It follows Bitcoin if yields push risk assets lower again.",
+          "days": [
+            "2026-09-26"
+          ]
+        },
+        "bnb": {
+          "sign": 0,
+          "mechanism": "BNB held near $776 while new buying went into smaller DeFi tokens rather than the largest coins.",
+          "outlook": "Little changed unless the altcoin rotation broadens to larger coins, or Bitcoin falls further.",
+          "days": [
+            "2026-09-25",
+            "2026-09-26"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "sol",
+        "eth",
+        "bnb"
+      ]
+    },
+    {
+      "id": "doge26",
+      "title": "Crypto prices on September 26: BTC 0.51% lower, SEI 23.58% higher",
+      "date": "2026-09-26",
+      "source": "IT Times",
+      "link": "https://www.ittimes.com/news/articleView.html?idxno=87142",
+      "excerpt": "At 10:30 a.m. KST on 26 September (CoinMarketCap), Bitcoin fell 0.51% to $84,057.48 while Dogecoin rose 3.35% to $0.09921, XRP 2.49% to $1.57 and Solana 4.05% to $122.12. The report said buying interest concentrated on selected altcoins while Bitcoin corrected around $84,000.",
+      "effects": {
+        "doge": {
+          "sign": 1,
+          "mechanism": "Money rotating from Bitcoin into selected altcoins lifted Dogecoin back toward $0.10, recovering part of Wednesday’s sell-off.",
+          "outlook": "Whether DOGE can retake $0.10 is the test. A further Bitcoin slide would pull it back.",
+          "days": [
+            "2026-09-26"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "doge"
+      ]
+    },
+    {
+      "id": "xrp26",
+      "title": "XRP surges 16% this week, reclaims $1.55 after $157 million theft",
+      "date": "2026-09-25",
+      "source": "24/7 Wall St.",
+      "link": "https://247wallst.com/investing/cryptocurrency/2026/09/25/xrp-surges-16-this-week-reclaims-1-55-after-157-million-theft-can-it-sustain-this-level-until-quarter-end/",
+      "excerpt": "Lookonchain tracked 102.93 million XRP, worth about $157 million and 44% of the funds stolen from Bitget’s hot and warm wallets, which are still sitting in a handful of hacker wallets. XRP had risen 16% over the week, from a $1.25 low on 16 September to $1.66 on 23 September, dipped to $1.45 when the hack broke on 24 September and recovered to $1.55.",
+      "effects": {
+        "xrp": {
+          "sign": -1,
+          "mechanism": "After a 16% weekly rise, traders face the risk that the hacker sells the stolen 102.93 million XRP on the market, so buyers hold back and the price slips.",
+          "outlook": "XRP holds above $1.55 if the wallets holding the stolen coins stay inactive. If the attacker starts selling, 24/7 Wall St. sees a drop toward the $1.45 low of 24 September.",
+          "days": [
+            "2026-09-26"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "xrp"
+      ]
+    },
+    {
+      "id": "doge23",
+      "title": "Dogecoin swings 8.72%: mean-reversion of a crowded trade",
+      "date": "2026-09-23",
+      "source": "CoinMarketCap",
+      "link": "https://coinmarketcap.com/top-stories/6ab3eb039b764f5d2eca0deb/",
+      "excerpt": "DOGE slid from about $0.10–$0.104 to about $0.095 over 11 hours to 3:06 p.m. UTC on 23 September, after breaking above long-term resistance near $0.095 and touching about $0.1059. CoinMarketCap said the move was the unwinding of an X-driven, leverage-heavy breakout as traders took profits, with the altcoin market cap down about 1.7% and no fresh Dogecoin-specific negative news.",
+      "effects": {
+        "doge": {
+          "sign": -1,
+          "mechanism": "Buyers who had piled in with borrowed money above $0.10 sold as the price slipped back below that level, and their stop-losses and liquidations pushed it lower. The whole altcoin market was also cooling that day.",
+          "outlook": "The $0.095–$0.10 band decides the next move: holding it keeps the breakout alive, losing it opens a deeper pullback.",
+          "days": [
+            "2026-09-23"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "doge"
+      ]
+    },
+    {
+      "id": "jgb24",
+      "title": "JGB yields jump as inflation worries resurface",
+      "date": "2026-09-24",
+      "source": "The Edge Malaysia",
+      "link": "https://theedgemalaysia.com/node/819241",
+      "excerpt": "Japanese government bond yields jumped on Thursday 24 September, the first trading day after the Bank of Japan raised its policy rate to 1.25% from 1% and after markets were closed through Wednesday for public holidays. The 10-year JGB yield rose 10 basis points to 3.075%, its highest since August 1996, and the five-year yield rose 10 basis points to a record 2.375%, on renewed concerns about inflation.",
+      "effects": {
+        "jp10y": {
+          "sign": 1,
+          "mechanism": "Tokyo was shut Monday to Wednesday while US Treasury yields jumped, so JGBs priced in three days of global selling at once on reopening. A weaker yen raises import prices and the chance of further Bank of Japan hikes, so investors demanded a higher yield.",
+          "outlook": "Upward bias while inflation worries and US yields above 5% persist. Bank of Japan bond-buying operations and officials’ comments on the yield level are the checks.",
+          "days": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "jp10y"
+      ]
+    },
+    {
+      "id": "eur22",
+      "title": "Euro zone yields fall after Iran raises prospect of Hormuz reopening",
+      "date": "2026-09-22",
+      "source": "Reuters · Asharq Al-Awsat",
+      "link": "https://english.aawsat.com/business/5321301-euro-zone-yields-fall-after-iran-raises-prospect-hormuz-reopening",
+      "excerpt": "Euro zone bond yields fell for a second straight day on Tuesday 22 September, to their lowest in almost two weeks, after Iran raised the prospect of reopening the Strait of Hormuz and Washington hinted it could restart talks with Tehran, pushing oil lower. Germany’s 10-year yield fell 1 basis point to 3.44% after rising as much as 4 basis points earlier, following a 7-basis-point fall on Monday. Traders priced about 35 basis points of further ECB tightening this year, down from 40 on Friday.",
+      "effects": {
+        "de10y": {
+          "sign": -1,
+          "mechanism": "The euro area imports most of its energy, so cheaper oil lowers expected inflation. Traders then priced less ECB tightening (35 bp instead of 40 bp), and lower expected policy rates pulled 10-year yields down.",
+          "outlook": "Yields stay tied to oil and Hormuz headlines: a failed reopening or an oil rebound would push them back up, as happened intraday on Tuesday.",
+          "days": [
+            "2026-09-22"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "de10y"
+      ]
+    },
+    {
+      "id": "us30y25",
+      "title": "US Treasury yields rise as 30-year yield hits 22-year high",
+      "date": "2026-09-25",
+      "source": "Octa",
+      "link": "https://en.octabroker.com/markets/news/view/1268021/",
+      "excerpt": "US Treasury yields turned mixed on Friday 25 September: the 20- and 30-year yields rose while shorter maturities eased. The 30-year yield peaked at 5.5016%, its highest since June 2004. Consumer sentiment weakened and one-year inflation expectations rose from 4% to 4.6% (five-year from 3.3% to 3.4%), while hawkish Fed speakers after last week’s 25 bp hike lifted year-end tightening odds.",
+      "effects": {
+        "us30y": {
+          "sign": 1,
+          "mechanism": "Higher household inflation expectations raise the compensation investors want for holding a 30-year bond, so the long end sold off even as short maturities eased. Hawkish Fed comments after the September hike added to the pressure.",
+          "outlook": "Upward bias while inflation expectations climb and Fed officials lean toward another hike. Next week’s August PCE inflation data is the test.",
+          "days": [
+            "2026-09-25"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "us30y"
+      ]
+    },
+    {
+      "id": "cad25",
+      "title": "Canada 10-year yield eases from 3-year high",
+      "date": "2026-09-25",
+      "source": "Trading Economics",
+      "link": "https://tradingeconomics.com/canada/government-bond-yield/news/587012",
+      "excerpt": "Canada’s 10-year government bond yield eased to around 3.92% on 25 September after touching a near three-year high of 4% on 24 September. Falling oil prices, on hopes that US–Iran talks could reopen the Strait of Hormuz, tempered inflation concerns and paused the global bond selloff.",
+      "effects": {
+        "ca10y": {
+          "sign": -1,
+          "mechanism": "Cheaper oil lowers the inflation outlook, so the extra yield investors had demanded during the week’s selloff was partly given back. The yield fell even though it is still well above early-September levels.",
+          "outlook": "The pullback holds if oil keeps falling and Hormuz talks progress. A rebound in oil, or a strong retail-sales print, would push the yield back toward 4%.",
+          "days": [
+            "2026-09-25"
+          ]
+        }
+      },
+      "scope": "Asset report",
+      "reviewed": true,
+      "assets": [
+        "ca10y"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+backups/
+server.log
+data/snapshot.json
+data/briefs.json
+data/link-checks.json
+data/news-week.json
+data/validated-preview.json
