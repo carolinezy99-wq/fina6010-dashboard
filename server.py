@@ -3282,7 +3282,7 @@ def class_briefs(rows: list[dict]) -> dict:
                     "explanation": note.get("explanation") or "",
                     "next": note.get("next") or "",
                     "text": note.get("explanation") or "No session yet.",
-                    **{k: note.get(k) for k in ("observed", "confidence", "confidenceMeaning", "evidence", "banks", "evidenceThrough")},
+                    **{k: note.get(k) for k in ("observed", "confidence", "confidenceMeaning", "evidence", "banks", "evidenceThrough", "points", "nextPoints")},
                     "bars": sorted(bars, key=lambda b: b["pct"], reverse=True) + gaps,
                 }
             )

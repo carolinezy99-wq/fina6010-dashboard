@@ -58,9 +58,14 @@ def check_link(item, force=False):
         with urllib.request.urlopen(req,timeout=8) as resp:
             body=resp.read(2500000)
             result.update(ok=resp.status==200 and readable_html(body),status=resp.status)
+            if result['ok']:result['okAt']=now
             # Do not persist signed/expiring redirects such as EIA's access URL.
     except (urllib.error.URLError, TimeoutError, ValueError, OSError) as e:
         result['detail']=str(e)[:120]
+        # A local DNS or timeout failure says nothing about the page; keep a success from the last two days.
+        transient=isinstance(e,TimeoutError) or 'nodename nor servname' in str(e) or 'timed out' in str(e) or 'Temporary failure' in str(e)
+        if transient and old.get('ok') and now-old.get('okAt',old.get('checked',0))<2*86400:
+            result.update(ok=True,okAt=old.get('okAt',old.get('checked')),status=old.get('status'))
     CHECKS[url]=result
     return result
 
@@ -272,6 +277,14 @@ def analysis(row,pct,day=None,period='daily'):
             mechanism='Thursday’s rise to $3.2 followed a 53 bcf storage build, well under the 76 bcf five-year average, and output heading toward an 11-week low of 108.4 bcfd in Louisiana and West Virginia. Friday’s fall to $3.15 was profit-taking after TC Energy’s Columbia Gas line in West Virginia declared force majeure and produced the largest one-day gain since January. The weekly gain is what is left after that Friday sale.'
             outlook='The weekly rise holds if the Columbia Gas force majeure stays in place and the storage surplus keeps shrinking from 95 Bcf. It fades if the fault is repaired, Louisiana and West Virginia output recovers, or the weather turns milder. The next EIA storage release is the check.'
             used.append(by['gas25'])
+        if row['id']=='nky' and period=='weekly' and 'nikkei25' in by and 'nky24' in by:
+            fact=('Japan traded only on Thursday and Friday after the Silver Week holiday from 19 to 23 September, when the Philadelphia Semiconductor Index rose more than 8% after Meta’s new AI agent and a new Alibaba AI chip. '
+                  'On Thursday the Nikkei rose 0.76% to 65,513.99 as those chip shares caught up, but Topix fell 0.39% and bank shares weakened as bond yields rose.')
+            mechanism=('Friday was a different session: the Nikkei rose another 1.30% to 66,364.20 and Topix rose 1.31%, with Tokyo Electron up 4.82% and Advantest up 2.84% as the largest contributors, and bank shares up 4.08% ahead of Monday’s interim-dividend deadline. '
+                       'The weekly gain adds those two sessions, a narrow chip catch-up on Thursday and a broader rise in chips and banks on Friday.')
+            outlook='The rise can continue if Tokyo Electron and Advantest keep attracting buyers after the holiday catch-up. It weakens if that chip buying fades once Monday’s dividend cutoff passes, or if a drop like Friday’s fall in SoftBank spreads.'
+            used=[by['nky24'], by['nikkei25']]
+            expected=1
     elif row['cls']=='fx':
         fresh=[b for b in banks if b['status']=='Recent evidence']
         fact=' '.join(f"{b['currency']}: {b['text']}" for b in banks if b.get('text'))
@@ -365,9 +378,15 @@ def analysis(row,pct,day=None,period='daily'):
             confidence='Low'
     else:observed+='The sources do not say how much of this move they explain, so the cause stays open.'
     if row.get('kind')=='yield':observed+=' This percentage is a change in the yield, not a bond-price return.'
-    # Include the policy baselines actually shown, even when the lead driver is intervention.
+    lead=((used[0].get('effects') or {}).get(row['id']) or {}) if used else {}
+    points=[p for p in lead.get('points') or [] if p.get('text')]
+    next_points=[p for p in lead.get('nextPoints') or [] if p.get('text')]
     refs={n['link']:ref(n) for n in used}
-    for b in banks:
+    for n in used:
+        for extra in n.get('also') or []:
+            if extra.get('link'):refs.setdefault(extra['link'],{k:extra.get(k) for k in ('title','source','link','date')})
+    # Bullet summaries cite their own articles; the policy baselines are only for the prose fallback.
+    for b in banks if not points else []:
         if b.get('source'):refs[b['source']['link']]=b['source']
     if row['id']=='us10y' and end.isoformat()=='2026-09-25' and 'wrap25' in by:
         observed+=' Cross-source discrepancy: Bloomberg’s later closing wrap reports a 4 bp decline to 5.16%, while this CBOE/Yahoo observation shows a different move. Timing and instrument comparability remain unresolved; do not treat them as a verified match.'
@@ -381,7 +400,10 @@ def analysis(row,pct,day=None,period='daily'):
     cause=_clip(mechanism, 2)
     if cause: explanation=(explanation+' '+cause).strip()
     whats_next=_clip(outlook, 2)
+    if points:explanation=' '.join(p['text'] for p in points)
+    if next_points:whats_next=' '.join(p['text'] for p in next_points)
     return dict(driver=label,catalyst=fact,mechanism=mechanism,observed=observed,next=whats_next,explanation=explanation,
+                points=points,nextPoints=next_points,
                 confidence=confidence,confidenceMeaning='Qualitative confidence in this explanation; not a forecast probability or backtested accuracy.',
                 evidence=list(refs.values()),banks=banks,evidenceThrough=end.isoformat(),period=period)
 

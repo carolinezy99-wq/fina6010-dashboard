@@ -636,6 +636,22 @@ body {
   line-height: 1.5;
 }
 
+.read .pts {
+  padding-left: 18px;
+}
+
+.read .pts li + li {
+  margin-top: 4px;
+}
+
+.read .pt-tag {
+  font-family: "Source Sans 3", "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--claret);
+}
+
 .read .why-src {
   margin: 8px 0 0;
   font-size: 12px;

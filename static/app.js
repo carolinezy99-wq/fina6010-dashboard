@@ -667,12 +667,18 @@ function readBlock(d) {
         } ${esc(e.title || "")} &#8599;</a></li>`,
     )
     .join("");
+  const bullets = (items, cls) =>
+    `<ul class="${cls} pts">${items
+      .map((p) => `<li>${p.tag ? `<b class="pt-tag">${esc(p.tag)}.</b> ` : ""}${esc(p.text)}</li>`)
+      .join("")}</ul>`;
+  const why = (d.points || []).length ? bullets(d.points, "why") : `<p class="why">${esc(explanation)}</p>`;
+  const nxt = (d.nextPoints || []).length ? bullets(d.nextPoints, "next") : `<p class="next">${esc(next)}</p>`;
   return `<div class="read">
     <h4>4. Explanation</h4>
-    <p class="why">${esc(explanation)}</p>
+    ${why}
     ${refs ? `<div class="why-src"><span class="src-label">Source</span><ul>${refs}</ul></div>` : ""}
     <h4 class="nx">5. What's next</h4>
-    <p class="next">${esc(next)}</p>
+    ${nxt}
   </div>`;
 }
 
