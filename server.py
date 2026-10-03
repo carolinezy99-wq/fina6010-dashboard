@@ -527,6 +527,7 @@ def fetch_chart(symbol: str, range_: str = "ytd", interval: str = "1d") -> dict 
         + urllib.parse.quote(symbol, safe="")
         + f"?range={urllib.parse.quote(range_)}&interval={urllib.parse.quote(interval)}&includePrePost=false"
     )
+    last_err: Exception | None = None
     for _ in range(3):
         try:
             raw = http_get(url, timeout=14)
@@ -534,9 +535,148 @@ def fetch_chart(symbol: str, range_: str = "ytd", interval: str = "1d") -> dict 
             result = (payload.get("chart") or {}).get("result") or []
             if result:
                 return result[0]
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, KeyError):
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, KeyError) as exc:
+            last_err = exc
             time.sleep(0.3)
+    # Yahoo rejects this server's address. CNBC's public quote is the same print.
+    chart = fetch_cnbc_chart(symbol, range_, interval)
+    if chart is None and last_err is not None:
+        print(f"[warn] {symbol} quote failed: {last_err}", flush=True)
+    return chart
+
+
+def _cnbc_float(text) -> float | None:
+    if text in (None, "", "UNCH"):
+        return None
+    cleaned = str(text).replace(",", "").replace("%", "").replace("+", "").strip()
+    try:
+        return float(cleaned)
+    except ValueError:
+        return None
+
+
+def _cnbc_epoch(text: str) -> int | None:
+    text = (text or "").strip()
+    if not text:
+        return None
+    if text.endswith("Z"):
+        text = text[:-1] + "+0000"
+    for fmt in ("%Y-%m-%dT%H:%M:%S.%f%z", "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%d"):
+        try:
+            stamp = datetime.strptime(text, fmt)
+        except ValueError:
+            continue
+        if stamp.tzinfo is None:
+            stamp = stamp.replace(tzinfo=NY)
+        return int(stamp.timestamp())
     return None
+
+
+# Yahoo symbol -> CNBC symbol. These are the cash index, spot FX, futures and yield, not an ETF.
+CNBC_SYMBOL = {
+    "^GSPC": ".SPX",
+    "^IXIC": ".IXIC",
+    "^DJI": ".DJI",
+    "^N225": ".N225",
+    "^HSI": ".HSI",
+    "^STOXX50E": ".STOXX50E",
+    "EURUSD=X": "EUR=",
+    "USDJPY=X": "JPY=",
+    "GBPUSD=X": "GBP=",
+    "USDCHF=X": "CHF=",
+    "AUDUSD=X": "AUD=",
+    "USDCNY=X": "CNY=",
+    "CL=F": "@CL.1",
+    "NG=F": "@NG.1",
+    "GC=F": "@GC.1",
+    "SI=F": "@SI.1",
+    "HG=F": "@HG.1",
+    "ZW=F": "@W.1",
+    "^TNX": "US10Y",
+    "^TYX": "US30Y",
+}
+CNBC_PERIOD = {
+    ("1d", "1m"): "1D",
+    ("5d", "5m"): "5D",
+    ("1mo", "1d"): "1M",
+    ("3mo", "1d"): "3M",
+    ("ytd", "1d"): "YTD",
+}
+_CNBC_BARS: dict[tuple[str, str], tuple[float, list[tuple[int, float]]]] = {}
+_CNBC_QUOTE: dict[str, tuple[float, dict]] = {}
+
+
+def _cnbc_bars(symbol: str, period: str) -> list[tuple[int, float]]:
+    key = (symbol, period)
+    hit = _CNBC_BARS.get(key)
+    if hit and time.time() - hit[0] < 600:
+        return hit[1]
+    url = "https://ts-api.cnbc.com/harmony/app/charts/" + urllib.parse.quote(period) + ".json?symbol=" + urllib.parse.quote(symbol)
+    payload = json.loads(http_get(url, timeout=12, ua="Mozilla/5.0").decode("utf-8"))
+    bars = []
+    for row in ((payload.get("barData") or {}).get("priceBars") or []):
+        close = _cnbc_float(row.get("close"))
+        stamp = row.get("tradeTimeinMills")
+        if close is None or not isinstance(stamp, (int, float)):
+            continue
+        bars.append((int(stamp) // 1000, close))
+    bars.sort()
+    if bars:
+        _CNBC_BARS[key] = (time.time(), bars)
+    return bars
+
+
+def _cnbc_quote(symbol: str) -> dict:
+    hit = _CNBC_QUOTE.get(symbol)
+    if hit and time.time() - hit[0] < 45:
+        return hit[1]
+    url = (
+        "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols="
+        + urllib.parse.quote(symbol)
+        + "&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&events=1"
+    )
+    payload = json.loads(http_get(url, timeout=12, ua="Mozilla/5.0").decode("utf-8"))
+    quote = (payload.get("FormattedQuoteResult") or {}).get("FormattedQuote") or {}
+    if isinstance(quote, list):
+        quote = quote[0] if quote else {}
+    if quote.get("code") in (0, "0"):
+        _CNBC_QUOTE[symbol] = (time.time(), quote)
+    return quote
+
+
+def fetch_cnbc_chart(symbol: str, range_: str, interval: str) -> dict | None:
+    """Yahoo-shaped chart built from CNBC, so the rest of the board can stay unchanged."""
+    mapped = CNBC_SYMBOL.get(symbol)
+    period = CNBC_PERIOD.get((range_, interval), "YTD")
+    if not mapped:
+        return None
+    try:
+        bars = _cnbc_bars(mapped, period)
+        quote = _cnbc_quote(mapped)
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, KeyError, ValueError) as exc:
+        print(f"[warn] CNBC {symbol}: {exc}", flush=True)
+        return None
+    if len(bars) < 2:
+        return None
+    last = _cnbc_float(quote.get("last"))
+    if last is None:
+        last = bars[-1][1]
+    change = _cnbc_float(quote.get("change_pct"))
+    if quote.get("change_pct") == "UNCH":
+        change = 0.0
+    when = _cnbc_epoch(quote.get("last_time") or "") or bars[-1][0]
+    print(f"[info] {symbol} via CNBC", flush=True)
+    return {
+        "timestamp": [t for t, _c in bars],
+        "indicators": {"quote": [{"close": [c for _t, c in bars]}]},
+        "meta": {
+            "regularMarketPrice": last,
+            "regularMarketChangePercent": change,
+            "regularMarketTime": when,
+            "currency": "USD",
+            "quoteVendor": "CNBC",
+        },
+    }
 
 
 SOV_MEM: dict[str, tuple[float, dict]] = {}
@@ -1294,8 +1434,8 @@ def build_row(spec: dict, chart: dict | None) -> dict:
             "spark": spark_n,
             "sparkPx": spark_px,
             "currency": meta.get("currency"),
-            "source": chart_site(spec),
-            "lag": "Daily fixing" if spec.get("feed") else "Delayed ~15m",
+            "source": (meta.get("quoteVendor") or chart_site(spec)),
+            "lag": "CNBC quote" if meta.get("quoteVendor") else ("Daily fixing" if spec.get("feed") else "Delayed ~15m"),
             "ranges": ["1M", "3M", "YTD"] if spec.get("feed") else ["1D", "5D", "1M", "3M", "YTD"],
             "sessionCode": code,
             "sessionLabel": label,
@@ -1333,13 +1473,15 @@ def fetch_crypto() -> dict[str, dict]:
     try:
         payload = json.loads(http_get(url, timeout=18).decode("utf-8"))
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
-        # CoinGecko's free tier throttles hard; a 429 must not blank the cards
-        return dict(CRYPTO_LAST_GOOD)
+        # CoinGecko's free tier throttles datacenter addresses. Use the exchange print.
+        payload = []
     if not isinstance(payload, list):
-        return dict(CRYPTO_LAST_GOOD)
+        payload = []
     by_cg = {item.get("id"): item for item in payload if isinstance(item, dict)}
-    with ThreadPoolExecutor(max_workers=len(CRYPTO)) as pool:
-        history = dict(zip([s["cg"] for s in CRYPTO], pool.map(crypto_history, [s["cg"] for s in CRYPTO])))
+    history: dict[str, list] = {}
+    if by_cg:
+        with ThreadPoolExecutor(max_workers=len(CRYPTO)) as pool:
+            history = dict(zip([s["cg"] for s in CRYPTO], pool.map(crypto_history, [s["cg"] for s in CRYPTO])))
     out: dict[str, dict] = {}
     for spec in CRYPTO:
         item = by_cg.get(spec["cg"])
@@ -1379,10 +1521,77 @@ def fetch_crypto() -> dict[str, dict]:
             }
         )
         out[spec["id"]] = row
+    for spec in CRYPTO:
+        if (out.get(spec["id"]) or {}).get("last") is not None:
+            continue
+        try:
+            row = exchange_crypto_row(spec)
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, KeyError, ValueError, IndexError) as exc:
+            print(f"[warn] {spec['id']} exchange quote: {exc}", flush=True)
+            row = None
+        if row:
+            out[spec["id"]] = row
     if out:
         CRYPTO_LAST_GOOD.clear()
         CRYPTO_LAST_GOOD.update(out)
     return out or dict(CRYPTO_LAST_GOOD)
+
+
+def exchange_crypto_row(spec: dict) -> dict | None:
+    """Last price and daily closes from the same venue the chart already uses."""
+    venue, product, label = EXCHANGE[spec["id"]]
+    if venue == "coinbase":
+        stats = json.loads(http_get(f"https://api.exchange.coinbase.com/products/{product}/stats", timeout=12).decode("utf-8"))
+        last = _cnbc_float(stats.get("last"))
+        opened = _cnbc_float(stats.get("open"))
+        end = datetime.now(timezone.utc)
+        start = end - timedelta(days=21)
+        url = (
+            f"https://api.exchange.coinbase.com/products/{product}/candles?granularity=86400"
+            f"&start={start.isoformat()}&end={end.isoformat()}"
+        )
+        candles = json.loads(http_get(url, timeout=12).decode("utf-8"))
+        levels = sorted((int(c[0]), float(c[4])) for c in candles)
+    else:
+        tick = json.loads(http_get(f"https://www.okx.com/api/v5/market/ticker?instId={product}", timeout=12).decode("utf-8"))
+        quote = (tick.get("data") or [{}])[0]
+        last = _cnbc_float(quote.get("last"))
+        opened = _cnbc_float(quote.get("open24h"))
+        raw = json.loads(
+            http_get(f"https://www.okx.com/api/v5/market/candles?instId={product}&bar=1Dutc&limit=21", timeout=12).decode("utf-8")
+        ).get("data") or []
+        levels = sorted((int(c[0]) // 1000, float(c[4])) for c in raw)
+    if last is None or len(levels) < 2:
+        return None
+    closes = [px for _t, px in levels]
+    if abs(closes[-1] - last) > max(1e-8, abs(last) * 1e-4):
+        closes.append(last)
+    dated = [(datetime.fromtimestamp(t, HKT).date(), px) for t, px in levels]
+    spark_n, spark_px = pack_spark(closes)
+    row = empty_row(spec)
+    row.update(
+        {
+            "ok": True,
+            "last": last,
+            "lastDisplay": format_px(last, "coin"),
+            "dayPct": slim_pct(pct(last, opened)),
+            "weekPct": slim_pct(last_n_change(closes, 7)),
+            "monthPct": slim_pct(last_n_change(closes, 21)),
+            "spark": spark_n,
+            "sparkPx": spark_px,
+            "dayMoves": day_moves_from_levels(dated),
+            "currency": "USD",
+            "source": label.split()[0],
+            "lag": "Exchange print",
+            "sessionCode": "open",
+            "sessionLabel": "OPEN 24/7",
+            "sourceUrl": quote_url(spec),
+            "chartUrl": chart_url(spec),
+            "chartSite": chart_site(spec),
+            "headlines": [],
+        }
+    )
+    return row
 
 
 def canon_source(raw: str) -> str | None:
@@ -3355,8 +3564,8 @@ def assemble() -> dict:
     rows = [build_row(spec, charts.get(spec["id"])) for spec in UNIVERSE]
     for spec in CRYPTO:
         row = crypto_rows.get(spec["id"]) or empty_row(spec)
-        row["source"] = "CoinGecko"
-        row["lag"] = "Near real-time"
+        row["source"] = row.get("source") or "CoinGecko"
+        row["lag"] = row.get("lag") or "Near real-time"
         row["sourceUrl"] = quote_url(spec)
         row["chartUrl"] = chart_url(spec)
         row["chartSite"] = chart_site(spec)
