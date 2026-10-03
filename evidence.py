@@ -21,6 +21,11 @@ try:
     CHECKS = json.loads(CACHE_FILE.read_text())
 except (OSError, ValueError):
     CHECKS = {}
+# Links that opened from an ordinary connection. Some publishers refuse a hosting provider's address.
+try:
+    VERIFIED = json.loads((DATA / 'link-verified.json').read_text())
+except (OSError, ValueError):
+    VERIFIED = {}
 
 class Text(HTMLParser):
     def __init__(self):
@@ -66,6 +71,9 @@ def check_link(item, force=False):
         transient=isinstance(e,TimeoutError) or 'nodename nor servname' in str(e) or 'timed out' in str(e) or 'Temporary failure' in str(e)
         if transient and old.get('ok') and now-old.get('okAt',old.get('checked',0))<2*86400:
             result.update(ok=True,okAt=old.get('okAt',old.get('checked')),status=old.get('status'))
+    seen=VERIFIED.get(url)
+    if not result['ok'] and seen and result.get('status') not in (404,410) and 'HTTP Error 404' not in result.get('detail','') and now-(seen.get('okAt') or 0)<7*86400:
+        result.update(ok=True,okAt=seen.get('okAt'),status=seen.get('status'),method='verified')
     CHECKS[url]=result
     return result
 

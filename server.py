@@ -1552,6 +1552,11 @@ def exchange_crypto_row(spec: dict) -> dict | None:
         )
         candles = json.loads(http_get(url, timeout=12).decode("utf-8"))
         levels = sorted((int(c[0]), float(c[4])) for c in candles)
+        hourly_url = (
+            f"https://api.exchange.coinbase.com/products/{product}/candles?granularity=3600"
+            f"&start={(end - timedelta(days=12)).isoformat()}&end={end.isoformat()}"
+        )
+        hourly = sorted((int(c[0]) + 3600, float(c[4])) for c in json.loads(http_get(hourly_url, timeout=12).decode("utf-8")))
     else:
         tick = json.loads(http_get(f"https://www.okx.com/api/v5/market/ticker?instId={product}", timeout=12).decode("utf-8"))
         quote = (tick.get("data") or [{}])[0]
@@ -1561,12 +1566,21 @@ def exchange_crypto_row(spec: dict) -> dict | None:
             http_get(f"https://www.okx.com/api/v5/market/candles?instId={product}&bar=1Dutc&limit=21", timeout=12).decode("utf-8")
         ).get("data") or []
         levels = sorted((int(c[0]) // 1000, float(c[4])) for c in raw)
+        hourly_raw = json.loads(
+            http_get(f"https://www.okx.com/api/v5/market/candles?instId={product}&bar=1H&limit=290", timeout=12).decode("utf-8")
+        ).get("data") or []
+        hourly = sorted((int(c[0]) // 1000 + 3600, float(c[4])) for c in hourly_raw)
     if last is None or len(levels) < 2:
         return None
     closes = [px for _t, px in levels]
     if abs(closes[-1] - last) > max(1e-8, abs(last) * 1e-4):
         closes.append(last)
-    dated = [(datetime.fromtimestamp(t, HKT).date(), px) for t, px in levels]
+    # Day moves follow HKT calendar days, the same basis as the CoinGecko path.
+    by_day: dict = {}
+    for t, px in hourly:
+        by_day[datetime.fromtimestamp(t, HKT).date()] = px
+    by_day[datetime.now(HKT).date()] = last
+    dated = sorted(by_day.items())
     spark_n, spark_px = pack_spark(closes)
     row = empty_row(spec)
     row.update(
