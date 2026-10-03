@@ -3534,6 +3534,17 @@ def market_pulse(rows: list[dict], regime: str) -> dict:
     return evidence.pulse(rows)
 
 
+PIN_FILE = DATA / "day-moves-pin.json"
+
+
+def pinned_day_moves() -> dict:
+    """Daily moves recorded where Yahoo is reachable, so the hosted board shows the same week."""
+    try:
+        return json.loads(PIN_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
 def assemble() -> dict:
     charts: dict[str, dict | None] = {}
     crypto_rows: dict[str, dict] = {}
@@ -3562,6 +3573,7 @@ def assemble() -> dict:
             news = []
 
     rows = [build_row(spec, charts.get(spec["id"])) for spec in UNIVERSE]
+    pins = pinned_day_moves()
     for spec in CRYPTO:
         row = crypto_rows.get(spec["id"]) or empty_row(spec)
         row["source"] = row.get("source") or "CoinGecko"
@@ -3571,12 +3583,20 @@ def assemble() -> dict:
         row["chartSite"] = chart_site(spec)
         row["sessionCode"] = "open"
         row["sessionLabel"] = "OPEN 24/7"
+        if pins.get(spec["id"]):
+            by = {m["date"]: m for m in row.get("dayMoves") or []}
+            by.update({m["date"]: m for m in pins[spec["id"]]})
+            row["dayMoves"] = sorted(by.values(), key=lambda m: m["date"])[-12:]
         rows.append(row)
 
     specs = {s["id"]: s for s in [*UNIVERSE, *CRYPTO]}
     for row in rows:
         if row.get("cls") != "crypto":
             row["dayMoves"] = day_moves_from_chart(charts.get(row["id"]), specs[row["id"]])
+            if pins.get(row["id"]):
+                by = {m["date"]: m for m in row["dayMoves"]}
+                by.update({m["date"]: m for m in pins[row["id"]]})
+                row["dayMoves"] = sorted(by.values(), key=lambda m: m["date"])[-12:]
     regime = regime_from(rows)
     for row in rows:
         expl, nxt = narrative(row, regime)
