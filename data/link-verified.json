@@ -458,5 +458,395 @@
   "okAt": 1790986316.2177322,
   "status": 200,
   "method": "http"
+ },
+ "https://newsonjapan.com/article/150948.php": {
+  "okAt": 1791608297.1444511,
+  "status": 200,
+  "method": "http"
+ },
+ "https://japan.co.jp/e/japan-market-desk/report-2026-10-06.html": {
+  "okAt": 1791608298.6360362,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.nikkei.com/article/DGXZQOFL0511BTV01C26A0000000/": {
+  "okAt": 1791608299.82583,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.ibtimes.com.au/japan-nikkei-closes-above-70000-1876319": {
+  "okAt": 1791608301.888573,
+  "status": 200,
+  "method": "http"
+ },
+ "https://japan.co.jp/e/japan-market-desk/report-2026-10-07.html": {
+  "okAt": 1791608303.567944,
+  "status": 200,
+  "method": "http"
+ },
+ "https://jen.jiji.com/jc/eng?g=mkt&k=2026100600670": {
+  "okAt": 1791608304.6132421,
+  "status": 200,
+  "method": "http"
+ },
+ "https://live.euronext.com/en/financial-news/world-shares-euro-slide-high-oil-prices-fiscal-worries-linger": {
+  "okAt": 1791608306.463736,
+  "status": 200,
+  "method": "http"
+ },
+ "https://live.euronext.com/en/financial-news/european-bank-shares-fall-bond-yields-surge-spreads-widen": {
+  "okAt": 1791608308.097731,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.fx.co/en/forex-news/3212388": {
+  "okAt": 1791608309.5652962,
+  "status": 200,
+  "method": "http"
+ },
+ "https://news.rthk.hk/rthk/en/component/k2/1873163-20261008.htm": {
+  "okAt": 1791608311.381273,
+  "status": 200,
+  "method": "http"
+ },
+ "https://finance.biggo.com/news/2a208372-34db-42f0-9289-dc0f3b18204d": {
+  "okAt": 1791608312.9997928,
+  "status": 200,
+  "method": "http"
+ },
+ "https://english.news.cn/20261008/44d87eab2c5e4cb2ade255892342bdbc/c.html": {
+  "okAt": 1791608315.1692832,
+  "status": 200,
+  "method": "http"
+ },
+ "https://news.rthk.hk/rthk/en/component/k2/1873307-20261009.htm": {
+  "okAt": 1791608317.3337119,
+  "status": 200,
+  "method": "http"
+ },
+ "https://news.rthk.hk/rthk/ch/component/k2/1873316-20261009.htm": {
+  "okAt": 1791608319.227486,
+  "status": 200,
+  "method": "http"
+ },
+ "https://news.rthk.hk/rthk/en/component/k2/1873257-20261009.htm": {
+  "okAt": 1791608320.7515159,
+  "status": 200,
+  "method": "http"
+ },
+ "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-gain-oil-102454068.html": {
+  "okAt": 1791608322.2522209,
+  "status": 200,
+  "method": "http"
+ },
+ "https://swingfolio.com/daily/us/2026-10-05/afternoon": {
+  "okAt": 1791608324.158844,
+  "status": 200,
+  "method": "http"
+ },
+ "https://investedalpha.com/news/thursday-close-nasdaq-falls-openai-revenue-report-oil-jumps-dow-edges-up": {
+  "okAt": 1791608325.918087,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.tmgm.com/en/analysis/market-news/article/the-euro-breaks-to-a-fresh-low-then-bounces-as-spain-calls-a-snap-vote-202610052228": {
+  "okAt": 1791608327.463553,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.dw.com/en/euro-plummets-against-us-dollar-has-the-next-financial-crisis-begun/a-79549031": {
+  "okAt": 1791608330.14676,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.tmgm.com/en/analysis/market-news/article/11111-why-the-euros-next-key-support-is-in-view-as-frances-budget-crisis-deepens-202610061133": {
+  "okAt": 1791608332.118161,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.tmgm-apac.com/en/analysis/market-news/article/the-pound-climbs-back-to-the-top-of-its-range-as-bond-yields-ease-202610062126": {
+  "okAt": 1791608335.403326,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.tmgm-asia.com/en-nz/analysis/market-news/article/british-pound-catches-bid-as-boe-hawk-warns-inflation-is-embedded-202610061602": {
+  "okAt": 1791608337.72761,
+  "status": 200,
+  "method": "http"
+ },
+ "https://econotimes.com/US-Dollar-Hits-18-Month-High-as-Fed-Signals-More-Rate-Hikes-1754260": {
+  "okAt": 1791608339.843528,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.actionforex.com/action-insight/market-overview/656741-dollar-rises-as-oil-and-yields-climb-france-pushes-euro-to-bottom-ahead-of-fed-minutes/": {
+  "okAt": 1791608341.338279,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.tmgm.com/en/analysis/market-news/article/swiss-franc-remains-on-front-foot-as-usd-slips-further-amid-softer-bond-yields-202610090504": {
+  "okAt": 1791608344.259709,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.tmgm-asia.com/en/analysis/market-news/article/swiss-franc-retreats-further-as-snb-vice-chairman-hints-at-lower-for-longer-rates-202610081055": {
+  "okAt": 1791608347.2952058,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.tmgm.com/en/analysis/market-news/article/yen-gains-as-trump-rules-out-iran-strikes-before-the-midterms-202610082315": {
+  "okAt": 1791608349.250344,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.tmgm.com/en/analysis/market-news/article/aussie-extends-weekly-gains-as-fed-pause-bets-offset-hawkish-rhetoric-202610092218": {
+  "okAt": 1791608352.6722949,
+  "status": 200,
+  "method": "http"
+ },
+ "https://en.octabroker.com/markets/news/view/1272909/": {
+  "okAt": 1791608355.2020988,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.tmgm.com/en/analysis/market-news/article/euro-struggles-as-french-fiscal-concerns-and-firm-us-dollar-dominate-202610091544": {
+  "okAt": 1791608357.7365482,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.actionforex.com/contributors/fundamental-analysis/657029-week-ahead-us-cpi-frances-budget-crisis-and-q3-earnings-to-set-the-market-tone/": {
+  "okAt": 1791608361.1427479,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.actionforex.com/contributors/fundamental-analysis/657006-weekly-focus-french-public-finances-continue-to-steal-the-spotlight/": {
+  "okAt": 1791608363.877525,
+  "status": 200,
+  "method": "http"
+ },
+ "https://live.euronext.com/en/financial-news/oil-slips-rising-mideast-crude-exports-g7-stocks-release": {
+  "okAt": 1791608366.60693,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.newsquawk.com/headlines/crude-wrap-wti-x6-settles-usd-168-lower-at-8943bbl": {
+  "okAt": 1791608368.0644128,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.syngenta.ca/market-news/chicago-close--slow-harvest-supports-corn--soybeans": {
+  "okAt": 1791608370.1540601,
+  "status": 200,
+  "method": "http"
+ },
+ "https://longbridge.com/en/news/301057480.md": {
+  "okAt": 1791608377.0358121,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.agweb.com/markets/grains-bounce-corrective-buying-harvest-war-premium": {
+  "okAt": 1791608378.1550028,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.fxempire.com/forecasts/article/natural-gas-news-isaias-has-shorts-covering-as-november-gas-tests-resistance-1636398": {
+  "okAt": 1791608394.56616,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html": {
+  "okAt": 1791608382.347491,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.newsquawk.com/headlines/crude-wrap-wti-x6-settles-usd-321-higher-at-9149bbl": {
+  "okAt": 1791608384.7671978,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.kitco.com/news/article/2026-10-09/gold-tests-4200-weak-sentiment-offsets-sticky-inflation-expectations-kitco": {
+  "okAt": 1791608386.688371,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.kitco.com/news/article/2026-10-09/gold-silver-rebound-dollar-yields-and-oil-ease-kitco-am-report": {
+  "okAt": 1791608388.146931,
+  "status": 200,
+  "method": "http"
+ },
+ "https://texmetals.com/all-news/precious-metals-market-update-10-09-2026": {
+  "okAt": 1791608389.45068,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.energyintel.com/000001a1-2155-d91a-a9b5-bb77aebe0000": {
+  "okAt": 1791608391.1936,
+  "status": 200,
+  "method": "http"
+ },
+ "https://aegis-hedging.com/insights/weekly-market-summary/2026-10-09": {
+  "okAt": 1791608393.0413802,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.fxbus.com/en/news/20261006000803164344.html": {
+  "okAt": 1791608396.011103,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.tmgm.com/eng/analysis/market-news/article/us-treasury-yields-scale-multi-year-highs-as-inflation-fears-return-202610052231": {
+  "okAt": 1791608397.952228,
+  "status": 200,
+  "method": "http"
+ },
+ "https://pwlbtoday.org/briefings/2026-10-05/end-of-day-wrap-up": {
+  "okAt": 1791608403.1689558,
+  "status": 200,
+  "method": "http"
+ },
+ "https://sg.finance.yahoo.com/news/canada-bond-yields-fall-global-211610583.html": {
+  "okAt": 1791608404.72354,
+  "status": 200,
+  "method": "http"
+ },
+ "https://rallies.ai/news/canadian-dollar-strengthens-benchmark-yield-slips-b791ee6265e3f952": {
+  "okAt": 1791608406.470659,
+  "status": 200,
+  "method": "http"
+ },
+ "https://financialnewsletter.com/uk-30-year-gilt-yields-2/": {
+  "okAt": 1791608407.978925,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.newsquawk.com/headlines/uk-sells-gbp-10bln-025-2031-gilt-via-tender-bc-439x-prev-265x-average-yield-4842-prev-1144": {
+  "okAt": 1791608409.619424,
+  "status": 200,
+  "method": "http"
+ },
+ "https://d2233.cms.socastsrm.com/2026/10/08/us-bonds-fall-lifting-yields-for-2nd-day-as-oil-weighs-30-year-auction-looms/": {
+  "okAt": 1791608411.562377,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.financialmarkets.com/article/the-30-year-yield-touched-a-24-year-high-before-noon-then-the-treasury-sold-22-b": {
+  "okAt": 1791608413.52651,
+  "status": 200,
+  "method": "http"
+ },
+ "https://500metrics.com/treasury/auctions/30-year-bond/2026-10-08": {
+  "okAt": 1791608414.685341,
+  "status": 200,
+  "method": "http"
+ },
+ "https://rallies.ai/news/japanese-government-bond-yields-fall-tracking-us-treasury-rally-cc403f1955f43057": {
+  "okAt": 1791608416.292446,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.fxbus.com/en/news/20261009094231196258.html": {
+  "okAt": 1791608417.665828,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul20261008.htm": {
+  "okAt": 1791608419.5424619,
+  "status": 200,
+  "method": "http"
+ },
+ "https://dailydigestinvest.com/japan-s-10-year-bond-yield-cools-as-us-treasury-rally-eases-global-pressure": {
+  "okAt": 1791608420.616725,
+  "status": 200,
+  "method": "http"
+ },
+ "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-jgb-yields-fall-as-30-year-bond-yield-retreats-from-record-high/articleshow/134780171.cms": {
+  "okAt": 1791608421.835196,
+  "status": 200,
+  "method": "http"
+ },
+ "https://wwconemedia.com/japans-30-year-bond-auction-beats-demand-expectations-but-the-bigger-debt-crisis-may-still-be-coming/": {
+  "okAt": 1791608423.752138,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.tradingnews.com/news/solana-120-usd-consolidates-in-a-rising-channel-as-alpenglow-nears-mainnet-and-tokenized-stock-volume": {
+  "okAt": 1791608425.9627678,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.coindesk.com/markets/2026/10/05/u-s-dollar-climbs-to-18-month-high-as-bitcoin-holds-firm-around-usd86-000": {
+  "okAt": 1791608428.0875,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.coindesk.com/markets/2026/10/05/bitcoin-zooms-toward-usd87-000-nearly-setting-an-eight-month-high-then-reverses": {
+  "okAt": 1791608430.452409,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.coindesk.com/markets/2026/10/06/solana-foundation-unveils-a-program-to-settle-institutional-trades-in-seconds-with-jpmorgan-s-inputs": {
+  "okAt": 1791608432.514765,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.coindesk.com/markets/2026/10/06/live-updates-a-drop-below-usd84-000-could-put-usd80-000-in-play-for-bitcoin": {
+  "okAt": 1791608434.779685,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.coindesk.com/markets/2026/10/07/bitcoin-dips-below-usd84-000-as-oil-jumps-on-iranian-tanker-attacks": {
+  "okAt": 1791608463.457288,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.coindesk.com/markets/2026/10/07/liquidations-jump-to-usd547-million-as-oil-rally-drags-bitcoin-below-usd84-000": {
+  "okAt": 1791608439.022551,
+  "status": 200,
+  "method": "http"
+ },
+ "https://coinjournal.net/news/dogecoin-dips-by-11-this-week-as-whale-balances-shrink/": {
+  "okAt": 1791608460.430281,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.tokenpost.com/news/investing/28232": {
+  "okAt": 1791608465.546685,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.coindesk.com/markets/2026/10/08/bitcoin-breaks-below-usd83-000-as-oil-jumps-on-iran-strike-plan-report": {
+  "okAt": 1791608444.297893,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush": {
+  "okAt": 1791608452.765512,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.tmgm-market.com/en/analysis/market-news/article/ripple-price-forecast-xrp-bulls-gather-recovery-momentum-amid-returning-etf-inflows-202610091200": {
+  "okAt": 1791608448.4127748,
+  "status": 200,
+  "method": "http"
+ },
+ "https://www.coindesk.com/markets/2026/10/09/bitcoin-steadies-near-usd82-500-after-trump-rules-out-iran-strike-before-midterms": {
+  "okAt": 1791608450.689821,
+  "status": 200,
+  "method": "http"
+ },
+ "https://cbcglobe.com/en/articles/2026/10/10/breaking-bitcoin-at-82-514-ethereum-and-ripple-rise-market-w-4846db90": {
+  "okAt": 1791608454.790535,
+  "status": 200,
+  "method": "http"
+ },
+ "https://decrypt.co/380599/bitcoin-rebounds-traders-predict-more-downside": {
+  "okAt": 1791608458.668215,
+  "status": 200,
+  "method": "http"
+ },
+ "https://cryptoticker.io/en/solana-price-active-addresses-13-month-high-etf-outflows/": {
+  "okAt": 1791608461.80304,
+  "status": 200,
+  "method": "http"
  }
 }
