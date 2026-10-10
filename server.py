@@ -661,9 +661,8 @@ def fetch_cnbc_chart(symbol: str, range_: str, interval: str) -> dict | None:
     last = _cnbc_float(quote.get("last"))
     if last is None:
         last = bars[-1][1]
+    # CNBC resets FX to "UNCH" after the 17:00 New York rollover; the bars still hold the session.
     change = _cnbc_float(quote.get("change_pct"))
-    if quote.get("change_pct") == "UNCH":
-        change = 0.0
     when = _cnbc_epoch(quote.get("last_time") or "") or bars[-1][0]
     print(f"[info] {symbol} via CNBC", flush=True)
     return {
@@ -1578,7 +1577,8 @@ def exchange_crypto_row(spec: dict) -> dict | None:
     # Day moves follow HKT calendar days, the same basis as the CoinGecko path.
     by_day: dict = {}
     for t, px in hourly:
-        by_day[datetime.fromtimestamp(t, HKT).date()] = px
+        # t is the candle's end; the 23:00-24:00 candle closes the day, not the next one.
+        by_day[datetime.fromtimestamp(t - 1, HKT).date()] = px
     by_day[datetime.now(HKT).date()] = last
     dated = sorted(by_day.items())
     spark_n, spark_px = pack_spark(closes)
@@ -2785,7 +2785,8 @@ def day_moves_from_levels(levels: list[tuple]) -> list[dict]:
 
 def _business_date(ts: int, spec: dict) -> object:
     """Session date shown in HKT, folding a weekend close back to Friday."""
-    day = datetime.fromtimestamp(ts, HKT).date()
+    # Yahoo stamps each FX daily close at 23:00 UTC, already the next morning in HKT.
+    day = datetime.fromtimestamp(ts, NY if spec.get("cls") == "fx" else HKT).date()
     # FX closes at 17:00 New York on Friday, which is Saturday in Hong Kong.
     # US cash and futures prints can also land after HKT midnight.
     while day.weekday() >= 5:
@@ -2852,8 +2853,9 @@ def day_moves_from_spark(spark: list, history: list[dict] | None = None) -> list
     if len(points) < 2:
         return []
     by: dict = {}
+    # Hourly points: the one stamped at (or just after) midnight is the day's close.
     for t, px in sorted(points):
-        by[datetime.fromtimestamp(t, HKT).date()] = px
+        by[datetime.fromtimestamp(t - 3599, HKT).date()] = px
     return day_moves_from_levels(sorted(by.items()))
 
 
