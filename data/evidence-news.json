@@ -3460,28 +3460,28 @@
           "days": [
             "2026-10-05"
           ],
-          "mechanism": "Friday's weak US jobs report cut bets on an October Fed hike, and US tech gains carried into Tokyo's AI and chip shares. Advantest and Tokyo Electron did a large share of the Nikkei's 2.40% rise.",
+          "mechanism": "Friday's weak US jobs report cut bets on an October Fed hike, so money became easier to put into growth shares, and US tech gains carried into Tokyo's AI and chip names, which pushed the Nikkei up 2.40%.",
           "outlook": "The Nikkei sits just under 70,000, so the Fed minutes on Wednesday and US chip stocks decide whether it closes above that level.",
           "points": [
             {
               "tag": "Interest rates",
-              "text": "Friday's weak US September jobs report led investors to scale back bets on another Fed rate hike in October, which sent money back into Tokyo's AI and chip shares."
+              "text": "Friday's weak US September jobs report led investors to scale back bets on another Fed rate hike in October, so money became cheaper to borrow and easier to put into growth shares, which sent buying into Tokyo's AI and chip names and pushed the Nikkei up 2.40%."
             },
             {
               "tag": "Spillover",
-              "text": "US tech shares rose after the jobs data, and that move carried into Tokyo on Monday, where the Nikkei briefly passed 70,000 for the first time in about three months."
+              "text": "US tech shares rose after the jobs data, so Tokyo followed that overnight move on Monday, which pushed the Nikkei briefly past 70,000 for the first time in about three months."
             },
             {
               "tag": "Index weights",
-              "text": "Advantest rose 4.32% and Tokyo Electron 5.5%, and Advantest alone added about 360 points to the Nikkei because the index is price-weighted (higher-priced shares count for more)."
+              "text": "Advantest rose 4.32% and Tokyo Electron 5.5%, and because the Nikkei is price-weighted (higher-priced shares count for more), Advantest alone added about 360 points, which pushed the index up 2.40%."
             },
             {
               "tag": "Index weights",
-              "text": "The broader TOPIX rose a smaller 1.33%, which shows that a few high-priced chip names did much of the Nikkei's 2.40% gain."
+              "text": "The broader TOPIX rose a smaller 1.33%, so a few high-priced chip shares, not the whole market, did most of the work, which is how the Nikkei rose 2.40%."
             },
             {
               "tag": "Currency",
-              "text": "The yen stayed weak at about 157.66 per dollar near the close, which helps exporters, but Japan.co.jp said the rally came from chip shares rather than a new fall in the yen."
+              "text": "The yen stayed weak at about 157.66 per dollar near the close, which usually helps exporters, but Japan.co.jp said the rally came from chip shares rather than a new fall in the yen, so the currency was not the extra push that lifted the Nikkei."
             }
           ],
           "nextPoints": [
@@ -3533,28 +3533,28 @@
           "days": [
             "2026-10-06"
           ],
-          "mechanism": "A record Nasdaq close and lower oil carried Monday's rally into Tuesday, and buying spread from the top chip names to electronics parts makers and banks. The Nikkei rose 1.05% to close above 70,000 at a three-month high.",
+          "mechanism": "A record Nasdaq close and lower oil carried Monday's rally into Tuesday, so buying spread from the top chip names to electronics parts makers and banks, which pushed the Nikkei up 1.05% to close above 70,000.",
           "outlook": "After a 2,374-point gain in two days, the Nikkei needs the Fed minutes and Japanese bond yields to stay calm to hold 70,000.",
           "points": [
             {
               "tag": "Spillover",
-              "text": "The Nasdaq hit a record high on Monday as SpaceX, Tesla, Nvidia and Broadcom rose, and Tokyo's AI and electronics shares followed it higher on Tuesday."
+              "text": "The Nasdaq hit a record high on Monday as SpaceX, Tesla, Nvidia and Broadcom rose, so Tokyo's AI and electronics shares followed that overnight move, which pushed the Nikkei up 1.05% on Tuesday."
             },
             {
               "tag": "Inflation",
-              "text": "Oil prices fell, and because Japan imports nearly all of its oil, cheaper crude lowers costs for Japanese companies and helped lift the index."
+              "text": "Oil prices fell, and Japan imports nearly all of its oil, so cheaper crude lowered costs for Japanese companies, which helped push the Nikkei higher."
             },
             {
               "tag": "Index weights",
-              "text": "Buying spread beyond the biggest names, with Taiyo Yuden up 6.15% at midday and Advantest up 3.85% at the close, while SoftBank Group fell more than 3% as investors took profits."
+              "text": "Buying spread beyond the biggest names, with Taiyo Yuden up 6.15% at midday and Advantest up 3.85% at the close, so the rally was wider than Monday's chip-led jump, which pushed the Nikkei up 1.05% even as SoftBank Group fell more than 3%."
             },
             {
               "tag": "Interest rates",
-              "text": "The 10-year Japanese government bond yield closed near 3.09% after a new 10-year auction sold at an average 3.101%, and these higher yields helped banks join the rally."
+              "text": "The 10-year Japanese government bond yield closed near 3.09% after a new 10-year auction sold at an average 3.101%, so banks earn more on the loans they make, which helped bank shares join the rally and added to the Nikkei's 1.05% gain."
             },
             {
               "tag": "Currency",
-              "text": "The yen weakened back above 158 per dollar in the Tokyo afternoon, which raises the yen value of exporters' overseas earnings."
+              "text": "The yen weakened back above 158 per dollar in the Tokyo afternoon, so exporters' overseas earnings are worth more in yen, which added another lift to the Nikkei."
             }
           ],
           "nextPoints": [
@@ -3606,28 +3606,28 @@
           "days": [
             "2026-10-07"
           ],
-          "mechanism": "French and Italian bond yields rose much faster than German yields, which revived fears that France's debt problems could spread. Banks, a big part of the Euro Stoxx 50, fell 4% to 5% and pulled the index down 1.47%.",
+          "mechanism": "French and Italian bond yields rose much faster than German yields, so future company profits looked less valuable and banks that hold those bonds were sold, which pulled the Euro Stoxx 50 down 1.47%.",
           "outlook": "The index stays tied to French and Italian bond yields and to oil near $100 until the ECB meets on 29 Oct.",
           "points": [
             {
               "tag": "Interest rates",
-              "text": "A global bond sell-off pushed the US 30-year Treasury yield to a fresh 24-year high, and yields in heavily indebted euro zone countries rose faster than German yields, which made European shares less attractive."
+              "text": "A global bond sell-off pushed the US 30-year Treasury yield to a fresh 24-year high, and yields in heavily indebted euro zone countries rose faster than German yields, so future company profits looked less valuable, which made European shares less attractive and pushed the Euro Stoxx 50 down 1.47%."
             },
             {
               "tag": "Policy",
-              "text": "France's 10-year yield jumped 15 basis points (hundredths of a percent) and Italy's 10, while German yields were flat, because investors doubt France can fix its finances before the 2027 election."
+              "text": "France's 10-year yield jumped 15 basis points (hundredths of a percent) and Italy's 10, while German yields were flat, because investors doubt France can fix its finances before the 2027 election, so worry about European debt spread, which pushed the Euro Stoxx 50 down."
             },
             {
               "tag": "Company news",
-              "text": "Banks fell hardest because rising yields cut the value of the government bonds they hold, with Deutsche Bank down 5% and UniCredit, Intesa Sanpaolo and BNP Paribas down about 4% each."
+              "text": "Rising yields cut the value of the government bonds banks hold, so Deutsche Bank fell 5% and UniCredit, Intesa Sanpaolo and BNP Paribas fell about 4% each, which pulled the Euro Stoxx 50 down 1.47% because banks are a big part of the index."
             },
             {
               "tag": "Inflation",
-              "text": "Oil rose back above $100 a barrel on Middle East tension, and a Milan fund manager said the risk of an inflation spike added to the pressure on rates and bank shares."
+              "text": "Oil rose back above $100 a barrel on Middle East tension, so a Milan fund manager said an inflation spike would keep rates high, which added pressure on banks and pushed the Euro Stoxx 50 lower."
             },
             {
               "tag": "Company news",
-              "text": "Industrial shares also fell, with Siemens and Safran down 3% each and Schneider Electric down 2.3% as investors kept judging its deal to buy PTC."
+              "text": "Industrial shares also fell, with Siemens and Safran down 3% each and Schneider Electric down 2.3% as investors kept judging its deal to buy PTC, so selling spread beyond banks, which added to the Euro Stoxx 50's 1.47% drop."
             }
           ],
           "nextPoints": [
@@ -3679,28 +3679,28 @@
           "days": [
             "2026-10-08"
           ],
-          "mechanism": "High US long-term yields, a near 5% drop in HSBC and Standard Chartered, and a chip sell-off after Samsung's results pulled the Hang Seng down 1.43%. Mainland markets reopened after Golden Week but fell too, so returning money gave no support.",
+          "mechanism": "High US long-term yields, a near 5% drop in HSBC and Standard Chartered, and a chip sell-off after Samsung's results pulled money out of Hong Kong, which pushed the Hang Seng down 1.43%.",
           "outlook": "Hong Kong stays near three-month lows while US long-term yields stay above 5%.",
           "points": [
             {
               "tag": "Interest rates",
-              "text": "The US 10-year yield touched 5.34% during China's holiday, and brokerage China Securities said fast-rising 30-year US yields would keep hurting Chinese stocks by drawing money out of China."
+              "text": "The US 10-year yield touched 5.34% during China's holiday, so brokerage China Securities said fast-rising 30-year US yields would draw money out of China, which pushed the Hang Seng down 1.43%."
             },
             {
               "tag": "Company news",
-              "text": "HSBC fell nearly 5% and Standard Chartered 5.5%, together cutting more than 100 points from the index, as high long-term bond yields and talk of UK tax rises on banks hit both lenders."
+              "text": "High long-term bond yields and talk of UK tax rises on banks hit HSBC and Standard Chartered, so HSBC fell nearly 5% and Standard Chartered 5.5%, which together cut more than 100 points from the Hang Seng and pushed it down 1.43%."
             },
             {
               "tag": "Company news",
-              "text": "Samsung Electronics reported a record 107.4 trillion won quarterly operating profit but still missed high hopes, and chip shares such as Hua Hong Semiconductor fell more than 9% in Hong Kong."
+              "text": "Samsung Electronics reported a record 107.4 trillion won quarterly operating profit but still missed high hopes, so chip shares such as Hua Hong Semiconductor fell more than 9% in Hong Kong, which added to the Hang Seng's 1.43% drop."
             },
             {
               "tag": "Holiday",
-              "text": "Mainland markets and Stock Connect reopened after Golden Week, but the CSI300 fell to a one-year low, so returning mainland money did not lift Hong Kong."
+              "text": "Mainland markets and Stock Connect reopened after Golden Week, but the CSI300 fell to a one-year low, so returning mainland money did not buy Hong Kong shares, which left the Hang Seng without support and it fell 1.43%."
             },
             {
               "tag": "Policy",
-              "text": "The US Federal Communications Commission said it would vote on 29 Oct to bar all Chinese labs from testing electronics for the US market, which added to renewed US-China tension."
+              "text": "The US Federal Communications Commission said it would vote on 29 Oct to bar all Chinese labs from testing electronics for the US market, so US-China tension rose again, which added selling pressure on the Hang Seng."
             }
           ],
           "nextPoints": [
@@ -3752,24 +3752,24 @@
           "days": [
             "2026-10-09"
           ],
-          "mechanism": "Internet shares led a rebound from Thursday's three-month low, with Xiaomi up nearly 10%, and big financial shares added to the gain. Trump's pledge not to attack Iran before the midterms gave a firmer start.",
+          "mechanism": "Trump's pledge not to attack Iran before the midterms eased oil-spike fears, and internet and financial shares bounced from Thursday's low, which pushed the Hang Seng up 1.79%.",
           "outlook": "The rebound is fragile because the tech index is still near a two-year low and US yields remain high.",
           "points": [
             {
               "tag": "Risk mood",
-              "text": "US President Donald Trump said the US would not attack Iran before November's midterm elections, which eased fears of an oil spike, and the Hang Seng opened 0.65% higher."
+              "text": "US President Donald Trump said the US would not attack Iran before November's midterm elections, so fears of an oil spike eased, which pushed the Hang Seng up 0.65% at the open and helped it close 1.79% higher."
             },
             {
               "tag": "Company news",
-              "text": "Internet companies led the rebound, with Xiaomi up nearly 10% and Alibaba, Meituan and Tencent up about 3% or more, which lifted the tech index 3.1%."
+              "text": "Internet companies led the rebound, with Xiaomi up nearly 10% and Alibaba, Meituan and Tencent up about 3% or more, so the tech index rose 3.1%, which pushed the Hang Seng up 1.79%."
             },
             {
               "tag": "Index weights",
-              "text": "Heavyweight financial shares also helped, as Hong Kong Exchanges, HSBC and AIA rose between about 1% and 3% a day after HSBC's near 5% drop."
+              "text": "Heavyweight financial shares also rose, with Hong Kong Exchanges, HSBC and AIA up between about 1% and 3% a day after HSBC's near 5% drop, so the biggest names in the index bounced, which added to the Hang Seng's 1.79% gain."
             },
             {
               "tag": "Spillover",
-              "text": "Hong Kong rose even though Wall Street tech shares fell overnight on a report that OpenAI's yearly revenue was $20 billion less than signalled, and mainland AI supply-chain shares kept falling."
+              "text": "Wall Street tech shares fell overnight on a report that OpenAI's yearly revenue was $20 billion less than signalled, and mainland AI supply-chain shares kept falling, so Hong Kong rose on its own rebound rather than a Wall Street lift, which still left the Hang Seng up 1.79%."
             }
           ],
           "nextPoints": [
@@ -3822,28 +3822,28 @@
           "days": [
             "2026-10-09"
           ],
-          "mechanism": "Monday's 0.66%, Tuesday's 0.58% and Friday's 0.59% gains did most of the 1.14% weekly rise, led by AI shares such as Nvidia. A 24-year high in yields on Wednesday and an OpenAI revenue report on Thursday caused the two down days.",
+          "mechanism": "Monday's 0.66%, Tuesday's 0.58% and Friday's 0.59% gains did most of the 1.14% weekly rise, led by AI shares such as Nvidia, so a 24-year high in yields on Wednesday and an OpenAI revenue report on Thursday caused the two down days, which still left the S&P 500 up 1.14% for the week.",
           "outlook": "Bank earnings from 13 Oct and September CPI on 14 Oct decide whether the index can push past Tuesday's record.",
           "points": [
             {
               "tag": "Company news",
-              "text": "Monday's 0.66% gain was led by AI shares, with Nvidia up 2.12% to a record close and six AI leaders adding about 0.44 percentage points to the S&P 500."
+              "text": "Monday's AI-led session, with Nvidia up 2.12% to a record close, so six AI leaders added about 0.44 percentage points on their own, which pushed the S&P 500 up 0.66% that day."
             },
             {
               "tag": "Index weights",
-              "text": "Tuesday's 0.58% rise gave the S&P 500 a record close, so Monday, Tuesday and Friday did most of the week's gain, and big AI shares were the common thread."
+              "text": "Tuesday's 0.58% rise gave the S&P 500 a record close, so Monday, Tuesday and Friday did most of the week's work and big AI shares were the common thread, which pushed the S&P 500 up 1.14% for the week."
             },
             {
               "tag": "Interest rates",
-              "text": "Treasury yields hit a 24-year high on Wednesday, the day the S&P 500 slipped 0.22%, and the 10-year yield was still about 5.23% on Thursday."
+              "text": "Treasury yields hit a 24-year high on Wednesday, so future company profits looked less valuable, which pushed the S&P 500 down 0.22% that day, with the 10-year still about 5.23% on Thursday."
             },
             {
               "tag": "Company news",
-              "text": "Thursday's 0.47% drop came after the Financial Times reported OpenAI's yearly revenue was near $50 billion, about $20 billion below earlier reports, which sent the chip index down 3.39%."
+              "text": "The Financial Times reported OpenAI's yearly revenue was near $50 billion, about $20 billion below earlier reports, so chip companies that sell to OpenAI were sold, which sent the chip index down 3.39% and pushed the S&P 500 down 0.47% on Thursday."
             },
             {
               "tag": "Risk mood",
-              "text": "Friday's 0.59% rebound followed President Trump's pledge not to attack Iran before the midterm elections, though a Baird analyst called it a fairly tepid rally because Iran headlines keep changing."
+              "text": "President Trump pledged not to attack Iran before the midterm elections, so oil-spike fears eased, which pushed the S&P 500 up 0.59% on Friday, though a Baird analyst called it a fairly tepid rally because Iran headlines keep changing."
             }
           ],
           "nextPoints": [
@@ -3895,28 +3895,28 @@
           "days": [
             "2026-10-05"
           ],
-          "mechanism": "Investors kept selling French government bonds after France's 2027 budget, and reports of a snap Spanish election added a second political worry, so EUR/USD dropped to a 17-month low near 1.1150 in Asian trading. It recovered more than half of that in Europe and closed down 0.28% at 1.1221.",
+          "mechanism": "Investors kept selling French government bonds after France's 2027 budget, and reports of a snap Spanish election added a second political worry, so EUR/USD dropped to a 17-month low near 1.1150 in Asia, then recovered more than half of that and closed down 0.28% at 1.1221.",
           "outlook": "EUR/USD leans lower while the gap between French and German bond yields stays wide, with the Fed minutes and the ECB account as the next tests.",
           "points": [
             {
               "tag": "US dollar",
-              "text": "Oxford Economics' Ricardo Amaro said the euro's slide this year comes from bets on higher Fed rates as global bond yields rise, which kept the dollar strong and left the euro down about 5% in 2026."
+              "text": "Oxford Economics' Ricardo Amaro said bets on higher Fed rates as global bond yields rise kept the dollar strong, so holding euros paid less than holding dollars, which left EUR/USD down about 5% in 2026 and set up Monday's extra drop."
             },
             {
               "tag": "Spillover",
-              "text": "France's 10-year bond yield had climbed to 5% last week and its gap over German yields reached the widest since the euro debt crisis, so investors sold euros along with French bonds and the pair touched its lowest since May 2025."
+              "text": "France's 10-year bond yield had climbed to 5% last week and its gap over German yields reached the widest since the euro debt crisis, so investors sold euros along with French bonds, which pushed EUR/USD to its lowest since May 2025."
             },
             {
               "tag": "Policy",
-              "text": "Reports that Spain was heading for an early election set off hedge-fund selling in Asia that tripped option barriers (preset price levels that trigger more selling), which pushed EUR/USD to just above 1.1150."
+              "text": "Reports that Spain was heading for an early election set off hedge-fund selling in Asia that tripped option barriers (preset price levels that trigger more selling), so more selling followed automatically, which pushed EUR/USD to just above 1.1150."
             },
             {
               "tag": "Central bank",
-              "text": "ECB Chief Economist Philip Lane said higher energy costs and borrowing costs are already slowing demand, so traders saw a chance of fewer ECB hikes than the two to three priced, which took away some support for the euro."
+              "text": "ECB Chief Economist Philip Lane said higher energy costs and borrowing costs are already slowing demand, so traders saw a chance of fewer ECB hikes than the two to three priced, which took away some rate support and added to the euro's drop."
             },
             {
               "tag": "Policy",
-              "text": "Prime Minister Sánchez's confirmation of a 29 November vote did less damage than the earlier reports, so EUR/USD recovered back above 1.1200 and the daily loss shrank to 0.28%."
+              "text": "Prime Minister Sánchez's confirmation of a 29 November vote did less damage than the earlier reports, so some of the forced selling reversed, which pulled EUR/USD back above 1.1200 and shrank the daily loss to 0.28%."
             }
           ],
           "nextPoints": [
@@ -3962,24 +3962,24 @@
           "days": [
             "2026-10-06"
           ],
-          "mechanism": "US Treasury yields and oil both eased, so holding dollars paid a little less and inflation worries cooled, and the dollar fell across the board. GBP/USD rose 0.40% to 1.3272 because of that dollar dip, not because of UK news.",
+          "mechanism": "US Treasury yields and oil both eased, so holding dollars paid a little less and inflation worries cooled, and the dollar fell across the board, which pushed GBP/USD up 0.40% to 1.3272.",
           "outlook": "GBP/USD is back near the top of its range, and the Fed minutes decide whether it breaks higher or falls back toward 1.3200.",
           "points": [
             {
               "tag": "Interest rates",
-              "text": "US Treasury yields came off Monday's 24-year high, which cut what investors earn for holding dollars and lifted GBP/USD 0.40% to 1.3272."
+              "text": "US Treasury yields came off Monday's 24-year high, so holding dollars paid a little less, which pushed GBP/USD up 0.40% to 1.3272."
             },
             {
               "tag": "Commodity prices",
-              "text": "Brent oil slipped below $100 a barrel as Gulf crude exports recovered, which eased the inflation worry that had pushed US yields and the dollar up."
+              "text": "Brent oil slipped below $100 a barrel as Gulf crude exports recovered, so the inflation worry that had pushed US yields and the dollar up eased, which took pressure off the pound and helped GBP/USD rise."
             },
             {
               "tag": "US dollar",
-              "text": "The US dollar index fell 0.31% to 101.78 and the US trade deficit widened in August as imports hit a record, so the dollar lost ground against all the big currencies including the pound."
+              "text": "The US dollar index fell 0.31% to 101.78 and the US trade deficit widened in August as imports hit a record, so the dollar lost ground against all the big currencies, which pushed GBP/USD higher with them."
             },
             {
               "tag": "Central bank",
-              "text": "Bank of England member Catherine Mann said inflation has become embedded and could reach about 4% around the turn of the year, which kept a 5 November rate hike about 85% to 87% priced, although GBP/USD barely moved when she spoke."
+              "text": "Bank of England member Catherine Mann said inflation has become embedded and could reach about 4% around the turn of the year, so a 5 November rate hike stayed about 85% to 87% priced, but GBP/USD barely moved when she spoke, which shows Tuesday's rise came from the weaker dollar, not from UK news."
             }
           ],
           "nextPoints": [
@@ -4025,24 +4025,24 @@
           "days": [
             "2026-10-07"
           ],
-          "mechanism": "US long-term yields climbed and the Fed minutes backed another hike this year, which lifted the dollar, while selling of French bonds started again and made the euro the weakest major currency. EUR/USD fell 0.56% to 1.1195.",
+          "mechanism": "US long-term yields climbed and the Fed minutes backed another hike this year, which lifted the dollar, while selling of French bonds started again, so the euro became the weakest major currency and EUR/USD fell 0.56% to 1.1195.",
           "outlook": "EUR/USD leans lower while the French-German yield gap stays above about 140 basis points and the Fed keeps a hike on the table.",
           "points": [
             {
               "tag": "Interest rates",
-              "text": "The US 10-year yield rose 5.9 basis points (hundredths of a percent) to 5.345% as Brent held above $100, which made dollar deposits pay more and pulled money out of the euro."
+              "text": "The US 10-year yield rose 5.9 basis points (hundredths of a percent) to 5.345% as Brent held above $100, so dollar deposits paid more than euro deposits, which pulled money out of the euro and pushed EUR/USD down."
             },
             {
               "tag": "Central bank",
-              "text": "Minutes of the Fed's September meeting showed most officials expected another rate rise by the end of 2026, so the dollar index rose 0.4% to 102.24 and EUR/USD fell 0.56% to 1.1195."
+              "text": "Minutes of the Fed's September meeting showed most officials expected another rate rise by the end of 2026, so the dollar index rose 0.4% to 102.24, which pushed EUR/USD down 0.56% to 1.1195."
             },
             {
               "tag": "Spillover",
-              "text": "The gap between French and German 10-year yields widened to 141.2 basis points from 129.7 at Tuesday's close, so Tuesday's relief lasted one day and the euro became the weakest major currency."
+              "text": "The gap between French and German 10-year yields widened to 141.2 basis points from 129.7 at Tuesday's close, so Tuesday's relief lasted one day and investors sold euros again, which made the euro the weakest major currency and added to the 0.56% fall."
             },
             {
               "tag": "Policy",
-              "text": "IMF chief Kristalina Georgieva told France to \"get your house in order\" because its deficit is 5.4% of GDP and its budget plan only aims for 5% next year, which kept investors selling French bonds and the euro."
+              "text": "IMF chief Kristalina Georgieva told France to \"get your house in order\" because its deficit is 5.4% of GDP and its budget plan only aims for 5% next year, so investors kept selling French bonds, which pushed the euro lower with them."
             }
           ],
           "nextPoints": [
@@ -4094,24 +4094,24 @@
           "days": [
             "2026-10-08"
           ],
-          "mechanism": "USD/CHF rose in the morning after the SNB ruled out near-term hikes, then fell once Trump promised no Iran strike before the midterms and a strong 30-year auction pulled US yields down. The dollar was sold across the board and USD/CHF closed 0.20% lower at 0.8314.",
+          "mechanism": "USD/CHF rose in the morning after the SNB ruled out near-term hikes, then Trump promised no Iran strike before the midterms and a strong 30-year auction pulled US yields down, so the dollar was sold across the board, which pushed USD/CHF down 0.20% to 0.8314.",
           "outlook": "USD/CHF may drift lower while US yields stay off their highs, but the gap between Fed and SNB rates limits how far it can fall.",
           "points": [
             {
               "tag": "Interest rates",
-              "text": "The US 10-year yield ended near 5.22% after touching its highest since 2002 on Wednesday, so the dollar lost some of its yield advantage and USD/CHF fell 0.20% to 0.8314."
+              "text": "The US 10-year yield ended near 5.22% after touching its highest since 2002 on Wednesday, so the dollar lost some of its yield advantage over the franc, which pushed USD/CHF down 0.20% to 0.8314."
             },
             {
               "tag": "Commodity prices",
-              "text": "President Trump posted that the US would not attack Iran before the 3 November midterms, and US crude fell from about $92.70 to $90.50 within minutes, which eased inflation fears and the case for more Fed hikes."
+              "text": "President Trump posted that the US would not attack Iran before the 3 November midterms, and US crude fell from about $92.70 to $90.50 within minutes, so inflation fears and the case for more Fed hikes eased, which took buying out of the dollar and pushed USD/CHF lower."
             },
             {
               "tag": "Interest rates",
-              "text": "A well-received 30-year Treasury auction showed strong demand for US bonds, which pushed yields further down and led traders to take profits on the dollar's rally to its highest since April 2025."
+              "text": "A well-received 30-year Treasury auction showed strong demand for US bonds, so yields fell further and traders took profits on the dollar's rally to its highest since April 2025, which pushed USD/CHF down."
             },
             {
               "tag": "Central bank",
-              "text": "Earlier in the day SNB Vice Chairman Antoine Martin said Switzerland remains \"comfortably within\" its 0% to 2% price goal, which ruled out hikes and pushed USD/CHF up to near 0.8350 before the US news reversed it."
+              "text": "Earlier in the day SNB Vice Chairman Antoine Martin said Switzerland remains \"comfortably within\" its 0% to 2% price goal, so near-term Swiss rate hikes were ruled out, which first pushed USD/CHF up to near 0.8350 before the US news reversed it and left the pair down 0.20%."
             }
           ],
           "nextPoints": [
@@ -4157,24 +4157,24 @@
           "days": [
             "2026-10-09"
           ],
-          "mechanism": "US yields stayed below the week's high after Thursday's drop and US consumer confidence came in weak, so the dollar gave back some of its gains. Investors bought stocks and the Aussie, which rose 0.39% to 0.6982 and was the strongest major currency on the day.",
+          "mechanism": "US yields stayed below the week's high after Thursday's drop and US consumer confidence came in weak, so the dollar gave back some of its gains and investors bought stocks, which pushed AUD/USD up 0.39% to 0.6982.",
           "outlook": "AUD/USD may hold near 0.70, but it stays below its 20-day average and needs strong Australian jobs data or soft US inflation to climb further.",
           "points": [
             {
               "tag": "Interest rates",
-              "text": "Danske Bank noted a solid drop in US yields on Thursday after another strong Treasury auction, this time for 30-year bonds, which cut the dollar's appeal and helped AUD/USD rise 0.39% to 0.6982."
+              "text": "Danske Bank noted a solid drop in US yields on Thursday after a strong 30-year Treasury auction, so the dollar became less attractive to hold, which helped push AUD/USD up 0.39% to 0.6982."
             },
             {
               "tag": "Economic data",
-              "text": "The University of Michigan consumer sentiment index fell to 46.3 from 48.1, below the 47.6 forecast, which backed bets on a Fed hold on 28 October and weighed on the dollar."
+              "text": "The University of Michigan consumer sentiment index fell to 46.3 from 48.1, below the 47.6 forecast, so bets on a Fed hold on 28 October rose, which weighed on the dollar and pushed AUD/USD higher."
             },
             {
               "tag": "Risk mood",
-              "text": "S&P 500 futures rose 0.33% to near 7,800 as investors bought shares, and the Aussie, a currency that tends to move with stocks, was the best-performing major currency."
+              "text": "S&P 500 futures rose 0.33% to near 7,800 as investors bought shares, so the Aussie, a currency that tends to move with stocks, rose with them, which made it the strongest major currency and pushed AUD/USD up 0.39%."
             },
             {
               "tag": "Inflation",
-              "text": "The same survey showed 1-year inflation expectations rising to 4.7% and 5-year to 3.5%, and Fed officials Waller and Musalem argued for more hikes, which kept an 81% chance of a December hike priced and limited the dollar's fall."
+              "text": "The same survey showed 1-year inflation expectations rising to 4.7% and 5-year to 3.5%, and Fed officials Waller and Musalem argued for more hikes, so an 81% chance of a December hike stayed priced, which limited how far the dollar fell and capped the Aussie's gain."
             }
           ],
           "nextPoints": [
@@ -4227,24 +4227,24 @@
             "2026-10-09"
           ],
           "weekly": true,
-          "mechanism": "Wednesday (-0.56%) and Monday (-0.28%) did most of the week's 0.45% fall, both on French bond selling, and Wednesday also had hawkish Fed minutes. The common thread was French political and debt risk on top of US yields near their highest since 2002, and the euro's bounces on Tuesday and Thursday came only when US yields dipped.",
+          "mechanism": "Wednesday (−0.56%) and Monday (−0.28%) did most of the week's 0.45% fall, both on French bond selling, and Wednesday also had hawkish Fed minutes, so French debt risk sat on top of US yields near their highest since 2002, which left EUR/USD down 0.45% for the week.",
           "outlook": "EUR/USD leans lower while France's budget fight goes on and markets cut ECB hike bets, with US CPI on 14 October as the next big test.",
           "points": [
             {
               "tag": "Spillover",
-              "text": "Wednesday did the most damage, as the gap between French and German 10-year yields jumped back to 141.2 basis points and the Fed minutes lifted the dollar to a nearly 18-month high, so EUR/USD fell 0.56% that day."
+              "text": "On Wednesday the gap between French and German 10-year yields jumped back to 141.2 basis points and the Fed minutes lifted the dollar to a nearly 18-month high, so investors sold euros on both counts, which pushed EUR/USD down 0.56% that day, the week's biggest drop."
             },
             {
               "tag": "Policy",
-              "text": "On Monday, reports of a snap Spanish election and more selling of French bonds pushed EUR/USD to its lowest since May 2025, near 1.1150, before it recovered to close down 0.28%."
+              "text": "On Monday, reports of a snap Spanish election and more selling of French bonds hit at the same time, so investors sold euros along with those bonds, which pushed EUR/USD to its lowest since May 2025, near 1.1150, before it recovered to close down 0.28%."
             },
             {
               "tag": "Interest rates",
-              "text": "The euro's gains on Tuesday (+0.33%) and Thursday (+0.13%) came only when US yields dipped, and on Friday the 10-year rose 4.2 basis points to 5.261%, which pulled EUR/USD down 0.07% to 1.1201 and left it 0.45% lower on the week."
+              "text": "The euro's gains on Tuesday (+0.33%) and Thursday (+0.13%) came only when US yields dipped, and on Friday the 10-year rose 4.2 basis points to 5.261%, so dollar deposits paid more again, which pulled EUR/USD down 0.07% to 1.1201 and left it 0.45% lower on the week."
             },
             {
               "tag": "Central bank",
-              "text": "Euro zone money markets cut expected ECB hikes to 70 basis points by the end of 2027 from 100 a few days earlier, and Danske Bank said the French turmoil makes an October ECB hike unlikely, which took rate support away from the euro."
+              "text": "Euro zone money markets cut expected ECB hikes to 70 basis points by the end of 2027 from 100 a few days earlier, and Danske Bank said the French turmoil makes an October ECB hike unlikely, so the euro lost rate support, which added to the week's 0.45% fall."
             }
           ],
           "nextPoints": [
@@ -4290,24 +4290,24 @@
           "days": [
             "2026-10-05"
           ],
-          "mechanism": "The G7 plan to release 100 million barrels from emergency stocks and a recovery in Middle East exports added supply, so WTI fell 1.84% to $89.43. Houthi attacks on Saudi refineries kept the drop from going further.",
+          "mechanism": "G7 countries agreed to release 100 million barrels from emergency stocks and Middle East exports recovered above pre-war levels, so more oil was headed to buyers, which pushed WTI down 1.84% to $89.43. Reports of Houthi strikes on Saudi refineries raised fears of lost barrels, which kept WTI from falling further.",
           "outlook": "More barrels reaching buyers leans prices lower. A hit to Saudi export facilities or new trouble at Hormuz would reverse that.",
           "points": [
             {
               "tag": "Supply",
-              "text": "G7 countries agreed on Friday to release 100 million barrels of diesel and crude from emergency reserves, which pushed WTI down $1.68, or 1.84%, to $89.43 on Monday."
+              "text": "G7 countries agreed on Friday to release 100 million barrels of diesel and crude from emergency reserves, so extra oil was headed to the market, which pushed WTI down $1.68, or 1.84%, to $89.43 on Monday."
             },
             {
               "tag": "Supply",
-              "text": "Shipping data showed Middle Eastern crude exports above pre-war levels on four of the seven days in the last week of September, even with attacks on tankers near the Strait of Hormuz, so traders expected more oil to reach buyers."
+              "text": "Shipping data showed Middle Eastern crude exports above pre-war levels on four of the seven days in the last week of September, even with attacks on tankers near the Strait of Hormuz, so traders expected more oil to reach buyers, which pushed WTI down."
             },
             {
               "tag": "Policy",
-              "text": "Raymond James analyst Pavel Molchanov said traders doubted how much of the G7 oil was new, because it may come from the 400 million barrels already pledged in March, which limited the selling."
+              "text": "Raymond James analyst Pavel Molchanov said traders doubted how much of the G7 oil was new, because it may come from the 400 million barrels already pledged in March, so the extra supply looked smaller than advertised, which limited how far WTI fell."
             },
             {
               "tag": "Supply",
-              "text": "Reports of a Houthi missile strike on Saudi Arabia's Ras Tanura refinery and an explosion at a Jeddah refinery briefly lifted prices, so WTI swung between $88.88 and $91.88 before closing lower."
+              "text": "Reports of a Houthi missile strike on Saudi Arabia's Ras Tanura refinery and an explosion at a Jeddah refinery raised fears of lost Saudi barrels, so buyers briefly paid more, which pushed WTI as high as $91.88 before it closed lower after swinging from $88.88."
             }
           ],
           "nextPoints": [
@@ -4359,24 +4359,24 @@
           "days": [
             "2026-10-06"
           ],
-          "mechanism": "A weaker dollar and fund short-covering lifted December wheat 12 cents to $7.04¼. New drone attacks on ships in the Black Sea added a war premium.",
+          "mechanism": "The US dollar eased and funds bought back short bets after last week's 15-to-25-cent drop, so American wheat looked cheaper to foreign buyers and shorts had to buy, which pushed December wheat up 12 cents to $7.04¼. Two drone attacks on Black Sea ships raised fears that less grain would ship, which added to the rise in wheat.",
           "outlook": "Analysts see the bounce as fund buying, not a real shortage, so wheat may stall near $7. Friday's USDA report is the next test.",
           "points": [
             {
               "tag": "US dollar",
-              "text": "The US dollar eased, which makes American wheat cheaper for foreign buyers, and DePutter said this helped lift December Chicago wheat 12 cents to $7.04¼."
+              "text": "DePutter said the US dollar eased, so American wheat became cheaper for foreign buyers, which pushed December Chicago wheat up 12 cents to $7.04¼."
             },
             {
               "tag": "Positioning",
-              "text": "Barchart's Darin Newsom said most of the bounce came from funds buying back short bets (bets on a fall) after wheat lost 15 to 25 cents last week, not from any change in supply."
+              "text": "Barchart's Darin Newsom said funds bought back short bets (bets on a fall) after wheat lost 15 to 25 cents last week, so extra buying hit the market without any change in supply, which pushed wheat up."
             },
             {
               "tag": "Supply",
-              "text": "Two merchant ships, one carrying grain, were hit by a drone strike off Bulgaria on Tuesday, a day after Russia sank two vessels carrying Ukrainian corn and wheat, which raised fears for Black Sea exports."
+              "text": "Two merchant ships, one carrying grain, were hit by a drone strike off Bulgaria on Tuesday, a day after Russia sank two vessels carrying Ukrainian corn and wheat, so traders feared less Black Sea grain would ship, which pushed wheat up."
             },
             {
               "tag": "Supply",
-              "text": "Traders said Russia shipped about 255,000 tons of wheat through Baltic Sea ports last week, up from 175,000 tons, which limited the gain because Russian supply is finding other routes."
+              "text": "Traders said Russia shipped about 255,000 tons of wheat through Baltic Sea ports last week, up from 175,000 tons, so some Russian wheat still reached buyers on other routes, which limited how far wheat rose."
             }
           ],
           "nextPoints": [
@@ -4415,24 +4415,24 @@
           "days": [
             "2026-10-07"
           ],
-          "mechanism": "Tropical Storm Isaias put Gulf of Mexico gas output at risk, and a light expected storage build made short sellers buy back. Gas rose 2.86% to about $3.20.",
+          "mechanism": "Tropical Storm Isaias put Gulf of Mexico gas output at risk and a light expected storage build made short sellers buy back, so supply looked tighter, which pushed natural gas up 2.86% to about $3.20.",
           "outlook": "The storm and Thursday's storage number drive the next few days. Near-record output and warm weather still cap the rally.",
           "points": [
             {
               "tag": "Weather",
-              "text": "Tropical Storm Isaias was forecast to become a hurricane by Thursday and producers began pulling crews off Gulf platforms, which raised the risk of lost supply and lifted gas 2.86% to about $3.20."
+              "text": "Tropical Storm Isaias was forecast to become a hurricane by Thursday and producers began pulling crews off Gulf platforms, so Gulf gas output was at risk of shutting, which pushed natural gas up 2.86% to about $3.20."
             },
             {
               "tag": "Stockpiles",
-              "text": "Analysts expected Thursday's EIA report to show a 79 Bcf (billion cubic feet) storage build, well below the five-year average near 96 Bcf, which made the supply cushion look thinner."
+              "text": "Analysts expected Thursday's EIA report to show a 79 Bcf (billion cubic feet) storage build, well below the five-year average near 96 Bcf, so the supply cushion looked thinner, which pushed natural gas up."
             },
             {
               "tag": "Positioning",
-              "text": "With gas already up from last week's low of $2.912, short sellers (traders betting on a fall) did not want to stay exposed to a storm and bought back, which added to the rise."
+              "text": "With gas already up from last week's low of $2.912, short sellers (traders betting on a fall) did not want to stay exposed to a storm and bought back, so extra buying hit the market, which pushed natural gas higher."
             },
             {
               "tag": "Supply",
-              "text": "US output stayed near record and autumn weather was warm across much of the country, and the storm could also cut power demand and LNG export demand, which kept the gain modest."
+              "text": "US output stayed near record, autumn weather was warm across much of the country, and the storm could also cut power demand and LNG export demand, so extra gas supply and weaker demand still loomed, which limited how far natural gas rose."
             }
           ],
           "nextPoints": [
@@ -4478,28 +4478,28 @@
           "days": [
             "2026-10-08"
           ],
-          "mechanism": "Reports of US strike plans against Iran, nine tanker attacks near Hormuz in a week and storm shut-ins in the Gulf of Mexico lifted WTI 3.6% to $91.49. Trump's promise of no attack before the midterms cut the gain from the $93.20 high.",
+          "mechanism": "Reports of US strike plans against Iran, nine tanker attacks near Hormuz in a week and storm shut-ins in the Gulf of Mexico made traders fear less oil would reach buyers, so the supply risk rose, which pushed WTI up 3.6% to $91.49. President Trump promised no attack before the midterms, so the war-risk premium faded, which pulled WTI back from the $93.20 high.",
           "outlook": "Tanker attacks and storm shut-ins keep supply risk in the price. Iran's reply to the US reopening proposal is the main swing factor.",
           "points": [
             {
               "tag": "Supply",
-              "text": "Reports that Washington had finished operational plans for possible strikes on Iran pushed WTI to a session high of $93.20, because a new war could cut more Gulf oil."
+              "text": "Reports said Washington had finished operational plans for possible strikes on Iran, so a new war could cut more Gulf oil, which pushed WTI up to a session high of $93.20."
             },
             {
               "tag": "Supply",
-              "text": "Nine tankers were attacked in and around the Strait of Hormuz over the past week, and Kpler data showed flows through the strait about 30% below pre-war levels, which lifted WTI 3.6% to $91.49."
+              "text": "Nine tankers were attacked in and around the Strait of Hormuz over the past week, and Kpler data showed flows through the strait about 30% below pre-war levels, so less oil was getting through, which pushed WTI up 3.6% to $91.49."
             },
             {
               "tag": "Weather",
-              "text": "Oil companies shut in about 500,000 barrels per day, or 25% of Gulf of Mexico offshore output, as Hurricane Isaias headed for Alabama, Mississippi and the Florida panhandle, which cut US supply."
+              "text": "Oil companies shut in about 500,000 barrels per day, or 25% of Gulf of Mexico offshore output, as Hurricane Isaias headed for Alabama, Mississippi and the Florida panhandle, so US supply fell, which pushed WTI up."
             },
             {
               "tag": "Supply",
-              "text": "Iran-backed Houthi militants fired missiles at Riyadh and Abha on Tuesday and Wednesday and again on Thursday, which added a second threat to Saudi supply."
+              "text": "Iran-backed Houthi militants fired missiles at Riyadh and Abha on Tuesday and Wednesday and again on Thursday, so Saudi oil facilities looked more at risk, which pushed WTI up."
             },
             {
               "tag": "Policy",
-              "text": "President Trump said talks with Iran were productive and the US would not attack before the November midterms, which pulled WTI back from its high."
+              "text": "President Trump said talks with Iran were productive and the US would not attack before the November midterms, so the war-risk premium faded, which pulled WTI back from its $93.20 high."
             }
           ],
           "nextPoints": [
@@ -4551,24 +4551,24 @@
           "days": [
             "2026-10-09"
           ],
-          "mechanism": "Treasury yields eased after a strong 30-year auction and the dollar softened, so silver, which pays no interest, became more attractive. Lower oil and bargain buying after Thursday's close below $60 added to the 2.73% gain.",
+          "mechanism": "Treasury yields eased after a strong 30-year auction and the dollar softened, so silver, which pays no interest, became more attractive to hold, which pushed silver up 2.73% to about $61.05. Oil fell and bargain buyers stepped in after Thursday's close below $60, so extra demand hit the metal, which added to Friday's rise in silver.",
           "outlook": "Silver bounced, but markets still expect a Fed hike by December. Wednesday's CPI will decide whether yields fall further.",
           "points": [
             {
               "tag": "Interest rates",
-              "text": "Thursday's strong 30-year Treasury auction eased pressure on long-term rates and the 10-year yield fell to about 5.24% from about 5.33%, which made silver, a metal that pays no interest, more attractive and lifted it 2.73% to about $61.05."
+              "text": "Thursday's strong 30-year Treasury auction eased pressure on long-term rates and the 10-year yield fell to about 5.24% from about 5.33%, so silver, a metal that pays no interest, became more attractive, which pushed silver up 2.73% to about $61.05."
             },
             {
               "tag": "US dollar",
-              "text": "The dollar softened early in the session, which made silver cheaper for buyers using other currencies."
+              "text": "The dollar softened early in the session, so silver became cheaper for buyers using other currencies, which pushed silver up."
             },
             {
               "tag": "Inflation",
-              "text": "Oil fell after President Trump said the US would not attack Iran before the midterms, which eased inflation worries and pulled yields lower, helping silver."
+              "text": "Oil fell after President Trump said the US would not attack Iran before the midterms, so inflation worries eased and yields pulled lower, which pushed silver up."
             },
             {
               "tag": "Positioning",
-              "text": "Silver had closed below $60 on Thursday after the week's rate-driven selloff, and bargain buyers stepped in at that level on Friday."
+              "text": "Silver had closed below $60 on Thursday after the week's rate-driven selloff, so bargain buyers stepped in at that level on Friday, which pushed silver up."
             }
           ],
           "nextPoints": [
@@ -4621,24 +4621,24 @@
           "days": [
             "2026-10-09"
           ],
-          "mechanism": "Gas rose 6.10% for the week to about $3.22, with Wednesday (+2.86%), Friday (+1.64%) and Tuesday (+1.57%) doing most of it. The common thread was Hurricane Isaias threatening Gulf output while US production fell, with Thursday's larger storage build the only setback.",
+          "mechanism": "Hurricane Isaias threatened Gulf output while US production fell, so supply looked tighter, which pushed natural gas up 6.10% for the week to about $3.22, with Wednesday (+2.86%), Friday (+1.64%) and Tuesday (+1.57%) doing most of the move. Thursday's EIA storage build came in slightly larger than expected, so the cushion looked a bit thicker, which pushed natural gas down that day.",
           "outlook": "Aegis expects offshore output to return quickly after the storm and the storm to cut power demand. Without colder forecasts, the rally may struggle to hold.",
           "points": [
             {
               "tag": "Weather",
-              "text": "Wednesday did the most, with gas up 2.86% after Tropical Storm Isaias formed in the Gulf and short sellers (traders betting on a fall) bought back, following a 1.57% gain on Tuesday."
+              "text": "Tropical Storm Isaias formed in the Gulf on Wednesday and short sellers (traders betting on a fall) bought back, so extra buying hit the market, which pushed natural gas up 2.86% that day after a 1.57% gain on Tuesday."
             },
             {
               "tag": "Supply",
-              "text": "On Friday gas rose 5.2 cents, or 1.64%, to a two-week high of $3.22 as Isaias interrupted offshore production ahead of landfall and US production fell below its early-October level."
+              "text": "Hurricane Isaias interrupted offshore production on Friday ahead of landfall and US production fell below its early-October level, so fewer gas barrels were coming to market, which pushed natural gas up 5.2 cents, or 1.64%, to a two-week high of $3.22."
             },
             {
               "tag": "Stockpiles",
-              "text": "Thursday was the only down day, with gas off 1.09%, after the EIA reported an 85 Bcf (billion cubic feet) storage build, slightly larger than expected, which ended a five-session, 23.6-cent rally."
+              "text": "The EIA reported an 85 Bcf (billion cubic feet) storage build on Thursday, slightly larger than expected, so the storage cushion looked a bit thicker, which pushed natural gas down 1.09% and ended a five-session, 23.6-cent rally."
             },
             {
               "tag": "Stockpiles",
-              "text": "Even after that build, storage was only 68 Bcf above the five-year average, down from nearly 200 Bcf eight weeks ago, which gave buyers support all week."
+              "text": "Even after that build, storage was only 68 Bcf above the five-year average, down from nearly 200 Bcf eight weeks ago, so the surplus was shrinking, which pushed natural gas up for the week."
             }
           ],
           "nextPoints": [
@@ -4690,24 +4690,24 @@
           "days": [
             "2026-10-05"
           ],
-          "mechanism": "A US survey showed service firms paying the highest prices since 2022, and US long-term yields rose to new highs. Gilts were sold along with Treasuries, and the 10-year gilt yield rose about 6.5 basis points to about 5.42%.",
+          "mechanism": "A US survey showed service firms paying the highest prices since 2022, so US long-term yields rose to new highs and gilts were sold along with Treasuries, which pushed the UK 10-year yield up about 6.5 basis points to about 5.42%.",
           "outlook": "Gilt yields are likely to stay near their highs while the global bond selloff continues and the 28 October budget gets closer. A clear fall in US yields would be the main thing to pull them down.",
           "points": [
             {
               "tag": "Inflation",
-              "text": "The US ISM survey showed the prices paid by service firms jumped to 74.0 in September, the highest since July 2022, which revived fears that inflation will keep central banks raising rates and led investors to sell long-dated government bonds."
+              "text": "The US ISM survey showed the prices paid by service firms jumped to 74.0 in September, the highest since July 2022, so investors feared inflation will keep central banks raising rates, which led them to sell long-dated government bonds and pushed the UK 10-year gilt yield higher."
             },
             {
               "tag": "Spillover",
-              "text": "The US 10-year Treasury yield rose more than 3 basis points to 5.307%, and gilts followed, with the UK 10-year yield up about 6.5 basis points (hundredths of a percentage point) to about 5.42%."
+              "text": "The US 10-year Treasury yield rose more than 3 basis points to 5.307%, so gilts were sold with Treasuries, which pushed the UK 10-year yield up about 6.5 basis points (hundredths of a percentage point) to about 5.42%."
             },
             {
               "tag": "Economic data",
-              "text": "UK data were not the trigger, because the September services PMI (a survey of service firms) came in at 52.1 against a 51.7 forecast and PWLBtoday said no single UK event explained the rise in gilt yields."
+              "text": "UK data were not the trigger, because the September services PMI (a survey of service firms) came in at 52.1 against a 51.7 forecast and PWLBtoday said no single UK event explained the move, so the rise in the UK 10-year yield came from the US sell-off, not from home news."
             },
             {
               "tag": "Fiscal",
-              "text": "PWLBtoday said worries about government finances in Europe stayed in focus, as investors sold long-dated gilts, and the 30-year gilt yield rose 5.2 basis points."
+              "text": "PWLBtoday said worries about government finances in Europe stayed in focus, so investors sold long-dated gilts, which pushed the 30-year gilt yield up 5.2 basis points and added to the 10-year's rise."
             }
           ],
           "nextPoints": [
@@ -4753,24 +4753,24 @@
           "days": [
             "2026-10-06"
           ],
-          "mechanism": "Oil fell nearly 2% as Middle East exports recovered and the G7 planned to release emergency fuel stocks, so inflation fears eased. US yields fell and Canadian yields followed, with the 10-year down about 4 basis points to about 3.92%.",
+          "mechanism": "Oil fell nearly 2% as Middle East exports recovered and the G7 planned to release emergency fuel stocks, so inflation fears eased, US yields fell and Canadian yields followed, which pushed the Canada 10-year yield down about 4 basis points to about 3.92%.",
           "outlook": "Canadian yields are likely to keep following oil and US Treasuries. A new jump in oil would push them back up.",
           "points": [
             {
               "tag": "Inflation",
-              "text": "Oil fell nearly 2%, with Brent near $98.48 a barrel, as Middle East exports recovered and the G7 planned to release emergency fuel reserves, which eased inflation fears and drew buyers to Canadian bonds."
+              "text": "Oil fell nearly 2%, with Brent near $98.48 a barrel, as Middle East exports recovered and the G7 planned to release emergency fuel reserves, so inflation fears eased, which drew buyers to Canadian bonds and pushed the Canada 10-year yield down."
             },
             {
               "tag": "Spillover",
-              "text": "US Treasury yields also fell on Tuesday as oil retreated, and Canadian yields followed, with the 10-year down about 4 basis points (hundredths of a percentage point) to about 3.92%."
+              "text": "US Treasury yields also fell on Tuesday as oil retreated, so Canadian yields followed them, which pushed the Canada 10-year yield down about 4 basis points (hundredths of a percentage point) to about 3.92%."
             },
             {
               "tag": "Central bank",
-              "text": "The 2-year yield, which tracks expectations for Bank of Canada rates, fell less, by 1.8 basis points to 3.235%, so the 10-year yield was still about 68.5 basis points above it."
+              "text": "The 2-year yield, which tracks expectations for Bank of Canada rates, fell less, by 1.8 basis points to 3.235%, so the 10-year yield was still about 68.5 basis points above it, which shows the drop was a bond-market move, not a bet on an immediate Bank of Canada cut."
             },
             {
               "tag": "Economic data",
-              "text": "Canada's August trade surplus widened to C$4.2 billion, well above forecasts, but the jump came from exports rushed to the US before new tariffs and it did not stop the fall in yields."
+              "text": "Canada's August trade surplus widened to C$4.2 billion, well above forecasts, but the jump came from exports rushed to the US before new tariffs, so it did not change the inflation story, which left the Canada 10-year yield falling with oil and Treasuries."
             }
           ],
           "nextPoints": [
@@ -4816,24 +4816,24 @@
           "days": [
             "2026-10-07"
           ],
-          "mechanism": "Oil rose above $100 a barrel and a global bond selloff hit Treasuries and gilts. Worries about extra borrowing in the 28 October budget added to selling, and the 10-year gilt yield rose about 7.4 basis points to about 5.45%.",
+          "mechanism": "Oil rose above $100 a barrel and a global bond sell-off hit Treasuries and gilts, and worries about extra borrowing in the 28 October budget added to selling, which pushed the UK 10-year yield up about 7.4 basis points to about 5.45%.",
           "outlook": "Gilt yields are likely to stay near 19-year highs until the budget shows how much the government will borrow. A fall in oil would ease the pressure.",
           "points": [
             {
               "tag": "Inflation",
-              "text": "Oil prices rose further above $100 a barrel because of the US-Israeli war with Iran, which raised inflation fears and led investors to sell gilts."
+              "text": "Oil prices rose further above $100 a barrel because of the US-Israeli war with Iran, so inflation fears rose, which led investors to sell gilts and pushed the UK 10-year yield higher."
             },
             {
               "tag": "Spillover",
-              "text": "The global bond selloff pushed the US 30-year yield to its highest since 2002 and lifted the US 10-year yield 6 basis points, and gilts fell harder, with the UK 10-year yield up about 7.4 basis points (hundredths of a percentage point) to about 5.45% at the close."
+              "text": "The global bond sell-off pushed the US 30-year yield to its highest since 2002 and lifted the US 10-year yield 6 basis points, so gilts were sold harder than Treasuries, which pushed the UK 10-year yield up about 7.4 basis points (hundredths of a percentage point) to about 5.45% at the close."
             },
             {
               "tag": "Fiscal",
-              "text": "Bank of America economists forecast that Chancellor John Healey's 28 October budget would add £15 billion to borrowing in both this financial year and 2027/28, which raised worries about more gilt supply."
+              "text": "Bank of America economists forecast that Chancellor John Healey's 28 October budget would add £15 billion to borrowing in both this financial year and 2027/28, so investors worried about more gilt supply, which added selling and pushed the UK 10-year yield up."
             },
             {
               "tag": "Bond supply",
-              "text": "The Debt Management Office's sale of £1 billion of 2031 gilts drew bids worth 4.39 times the amount offered, so demand for shorter gilts held up while the heaviest selling hit 30-year bonds, which rose 13 basis points to 6.036%."
+              "text": "The Debt Management Office's sale of £1 billion of 2031 gilts drew bids worth 4.39 times the amount offered, so demand for shorter gilts held up while the heaviest selling hit 30-year bonds, which rose 13 basis points to 6.036% and kept the 10-year yield up 7.4 basis points on the day."
             }
           ],
           "nextPoints": [
@@ -4885,28 +4885,28 @@
           "days": [
             "2026-10-08"
           ],
-          "mechanism": "The 30-year yield first rose to its highest since 2002 as oil jumped. Then a $22 billion 30-year auction found strong demand, especially from foreign buyers, and the yield ended about 5.5 basis points lower at about 5.6%.",
+          "mechanism": "The 30-year yield first rose to its highest since 2002 as oil jumped, then a $22 billion 30-year auction found strong demand, especially from foreign buyers, so investors bought without demanding extra yield, which pushed the US 30-year yield down about 5.5 basis points to about 5.6%.",
           "outlook": "Long-term yields may hold below this week's highs because two big auctions found buyers at these levels. A hot September inflation report would push them back up.",
           "points": [
             {
               "tag": "Inflation",
-              "text": "Oil rose as much as $5 a barrel in the morning on Middle East supply worries, which pushed the 30-year yield to 5.732%, its highest since June 2002, before the auction."
+              "text": "Oil rose as much as $5 a barrel in the morning on Middle East supply worries, so inflation fears rose, which first pushed the US 30-year yield to 5.732%, its highest since June 2002, before the auction."
             },
             {
               "tag": "Bond supply",
-              "text": "The Treasury sold $22 billion of 30-year bonds at 5.618%, below the yield expected at the deadline, with bids worth 2.54 times the amount offered, so investors bought without demanding extra yield and the 30-year yield fell about 5.5 basis points (hundredths of a percentage point) to about 5.6%."
+              "text": "The Treasury sold $22 billion of 30-year bonds at 5.618%, below the yield expected at the deadline, with bids worth 2.54 times the amount offered, so investors bought without demanding extra yield, which pushed the US 30-year yield down about 5.5 basis points (hundredths of a percentage point) to about 5.6%."
             },
             {
               "tag": "Bond supply",
-              "text": "Indirect bidders, a group that includes foreign central banks and investors, took 72.3% of the 30-year sale against a six-auction average of 69.1%, which showed foreign money is willing to buy at these yields."
+              "text": "Indirect bidders, a group that includes foreign central banks and investors, took 72.3% of the 30-year sale against a six-auction average of 69.1%, so foreign money is willing to buy at these yields, which added to the drop in the US 30-year yield."
             },
             {
               "tag": "Risk mood",
-              "text": "Oil pulled back slightly after President Trump said the US will not attack Iran before the November midterm elections, which took some pressure off long-dated bonds."
+              "text": "Oil pulled back slightly after President Trump said the US will not attack Iran before the November midterm elections, so some inflation pressure came off, which helped long-dated bonds and added to the fall in the US 30-year yield."
             },
             {
               "tag": "Central bank",
-              "text": "Fed Governor Christopher Waller said more rate hikes will likely be needed but there is flexibility on the pace, which lifted 2-year yields and left long yields falling more than short ones."
+              "text": "Fed Governor Christopher Waller said more rate hikes will likely be needed but there is flexibility on the pace, so 2-year yields rose while long yields fell more than short ones, which left the US 30-year yield down about 5.5 basis points on the day."
             }
           ],
           "nextPoints": [
@@ -4958,24 +4958,24 @@
           "days": [
             "2026-10-09"
           ],
-          "mechanism": "US Treasury yields fell after a strong 30-year auction, and Japan's own 30-year sale also found buyers. With traders now expecting the next Bank of Japan hike in December, the 10-year JGB yield fell about 7.5 basis points to about 3.01%.",
+          "mechanism": "US Treasury yields fell after a strong 30-year auction, and Japan's own 30-year sale also found buyers, so with traders now expecting the next Bank of Japan hike in December the 10-year JGB yield fell about 7.5 basis points to about 3.01%.",
           "outlook": "The 10-year JGB yield may hold near 3% because traders no longer expect a Bank of Japan hike in October. A hawkish signal from the bank or new unfunded spending would push it back up.",
           "points": [
             {
               "tag": "Spillover",
-              "text": "US Treasury yields fell overnight after strong demand at a $22 billion 30-year auction, and JGB yields followed across the curve, with the 10-year down about 7.5 basis points (hundredths of a percentage point) to about 3.01% at the close."
+              "text": "US Treasury yields fell overnight after strong demand at a $22 billion 30-year auction, so JGB yields followed across the curve, which pushed the Japan 10-year yield down about 7.5 basis points (hundredths of a percentage point) to about 3.01% at the close."
             },
             {
               "tag": "Bond supply",
-              "text": "Japan's 30-year auction on Thursday drew ¥1,747.2 billion of bids for ¥450.7 billion of bonds, about 3.88 times the amount sold, which showed buyers will take long JGBs at these yields."
+              "text": "Japan's 30-year auction on Thursday drew ¥1,747.2 billion of bids for ¥450.7 billion of bonds, about 3.88 times the amount sold, so buyers will take long JGBs at these yields, which added demand and helped push the 10-year yield down."
             },
             {
               "tag": "Central bank",
-              "text": "Investors moved bets for the next Bank of Japan rate hike to December rather than October, after the bank raised its rate to 1.25% in September and signalled a cautious approach, which pulled yields down."
+              "text": "Investors moved bets for the next Bank of Japan rate hike to December rather than October, after the bank raised its rate to 1.25% in September and signalled a cautious approach, so fewer near-term hikes were priced, which pulled the Japan 10-year yield down."
             },
             {
               "tag": "Interest rates",
-              "text": "Cooling expectations for more Fed rate hikes also pushed down both US and Japanese bond yields, and the 30-year JGB yield fell 5.5 basis points to 4.065%."
+              "text": "Cooling expectations for more Fed rate hikes also pushed down both US and Japanese bond yields, so long Japanese bonds were bought with Treasuries, which pushed the 30-year JGB yield down 5.5 basis points to 4.065% and the 10-year down with it."
             }
           ],
           "nextPoints": [
@@ -5028,24 +5028,24 @@
           "days": [
             "2026-10-09"
           ],
-          "mechanism": "The 10-year JGB yield fell about 8 basis points over the week to about 3.01%, almost all of it on Thursday and Friday. The common thread was traders pushing the next Bank of Japan hike to December, plus strong demand at 30-year auctions in Tokyo and New York.",
+          "mechanism": "The 10-year JGB yield fell about 8 basis points over the week to about 3.01%, almost all of it on Thursday and Friday, so the common thread was traders pushing the next Bank of Japan hike to December plus strong demand at 30-year auctions in Tokyo and New York, which left the Japan 10-year yield down 2.7% of its level.",
           "outlook": "The yield may stay near 3% while traders expect the Bank of Japan to wait until December. New spending without funding is the main risk.",
           "points": [
             {
               "tag": "Fiscal",
-              "text": "On Monday PM Sanae Takaichi promised to control bond issuance and respond quickly to market turbulence, after the 30-year JGB yield hit a record 4.235% that day, and the 10-year yield slipped about 1 basis point (hundredth of a percentage point)."
+              "text": "On Monday PM Sanae Takaichi promised to control bond issuance and respond quickly to market turbulence, after the 30-year JGB yield hit a record 4.235% that day, so some of the panic selling stopped, which pushed the Japan 10-year yield down about 1 basis point (hundredth of a percentage point)."
             },
             {
               "tag": "Central bank",
-              "text": "On Thursday traders moved bets for the next Bank of Japan hike toward December, and the 10-year yield fell about 2 basis points, with the Economic Times reporting a 2.5 basis point drop to 3.080% during the day."
+              "text": "On Thursday traders moved bets for the next Bank of Japan hike toward December, so fewer near-term hikes were priced, which pushed the Japan 10-year yield down about 2 basis points, with the Economic Times reporting a 2.5 basis point drop to 3.080% during the day."
             },
             {
               "tag": "Bond supply",
-              "text": "Japan's 30-year auction on Thursday drew about 3.88 times the bonds on offer, firmer than the recent average, which showed buyers were willing to step in at these yields."
+              "text": "Japan's 30-year auction on Thursday drew about 3.88 times the bonds on offer, firmer than the recent average, so buyers were willing to step in at these yields, which added demand and helped push the 10-year yield down."
             },
             {
               "tag": "Spillover",
-              "text": "On Friday US Treasuries rallied after a strong 30-year auction, and the 10-year JGB yield dropped about 7.5 basis points, the biggest move of the week, to end at about 3.01%."
+              "text": "On Friday US Treasuries rallied after a strong 30-year auction, so Japanese bonds were bought with them, which pushed the Japan 10-year yield down about 7.5 basis points, the biggest move of the week, to end at about 3.01%."
             }
           ],
           "nextPoints": [
@@ -5097,28 +5097,28 @@
           "days": [
             "2026-10-05"
           ],
-          "mechanism": "A stronger dollar and a jump in US service-sector prices pushed short-term yields up, and bitcoin turned back below $87,000 again. SOL had no fresh ETF buying to lean on, so it slipped after four up days.",
+          "mechanism": "A stronger dollar and a jump in US service-sector prices pushed short-term yields up, and bitcoin turned back below $87,000 again, so SOL had no fresh ETF buying to lean on, which pushed SOL down 1.83%.",
           "outlook": "SOL likely ranges between $114 and $125 until ETF demand returns or Solana confirms a date for its Alpenglow upgrade.",
           "points": [
             {
               "tag": "US dollar",
-              "text": "The US dollar index reached about 102.5 on Monday, its highest in nearly 18 months, as the euro fell toward $1.12, and a stronger dollar makes it harder for assets like SOL to attract buyers."
+              "text": "The US dollar index reached about 102.5 on Monday, its highest in nearly 18 months, as the euro fell toward $1.12, so a stronger dollar makes it harder for assets priced in dollars to attract buyers, which pushed SOL down 1.83%."
             },
             {
               "tag": "Inflation",
-              "text": "The ISM survey showed prices paid by US service firms rising to 74.0, the highest since July 2022, which lifted short-term Treasury yields and kept talk of more Fed rate hikes alive."
+              "text": "The ISM survey showed prices paid by US service firms rising to 74.0, the highest since July 2022, so short-term Treasury yields rose and talk of more Fed rate hikes stayed alive, which made a coin that pays no interest less attractive and pushed SOL down."
             },
             {
               "tag": "Bitcoin lead",
-              "text": "Bitcoin came within about $500 of its eight-month high near $87,400 and then fell back under $86,000, so SOL lost the lift it had been getting from the wider market."
+              "text": "Bitcoin came within about $500 of its eight-month high near $87,400 and then fell back under $86,000, so SOL lost the lift it had been getting from the wider market, which added to SOL's 1.83% drop."
             },
             {
               "tag": "Fund flows",
-              "text": "US spot Solana ETFs (funds that hold SOL for stock-market investors) took in just $2.43 million in the week to 2 Oct, down 98.7% from a record $188.22 million, so a steady buyer had almost disappeared."
+              "text": "US spot Solana ETFs (funds that hold SOL for stock-market investors) took in just $2.43 million in the week to 2 Oct, down 98.7% from a record $188.22 million, so a steady buyer had almost disappeared, which left SOL with less support and it fell 1.83%."
             },
             {
               "tag": "Token news",
-              "text": "SOL slipped after four straight daily gains and stayed about 4% below the $124.62 to $125 level where sellers stopped the September rally."
+              "text": "SOL slipped after four straight daily gains and stayed about 4% below the $124.62 to $125 level where sellers stopped the September rally, so there was no fresh news to break that ceiling, which left SOL down 1.83% on the day."
             }
           ],
           "nextPoints": [
@@ -5164,24 +5164,24 @@
           "days": [
             "2026-10-06"
           ],
-          "mechanism": "Bond yields, the dollar and oil eased and US stocks hit records, so crypto climbed back from Monday's lows. SOL also had its own good news, a JPMorgan-advised settlement program aimed at big institutions.",
+          "mechanism": "Bond yields, the dollar and oil eased and US stocks hit records, so crypto climbed back from Monday's lows, and SOL also had its own good news in a JPMorgan-advised settlement program, which pushed SOL up 0.98%.",
           "outlook": "SOL likely holds near $120 to $122 while bitcoin stays stuck below $87,000. A bitcoin drop under $84,000 is the main risk.",
           "points": [
             {
               "tag": "Interest rates",
-              "text": "The 10-year Treasury yield fell 4 basis points (hundredths of a percent) to about 5.27% and the dollar index slipped below 102, which eased the pressure on assets that pay no interest, like SOL."
+              "text": "The 10-year Treasury yield fell 4 basis points (hundredths of a percent) to about 5.27% and the dollar index slipped below 102, so the pressure on assets that pay no interest eased, which pushed SOL up 0.98%."
             },
             {
               "tag": "Risk mood",
-              "text": "The S&P 500 rose 0.6% to its first record close in two months and the Nasdaq also closed at a record, while crypto climbed from its late-Monday lows and bitcoin touched $86,400."
+              "text": "The S&P 500 rose 0.6% to its first record close in two months and the Nasdaq also closed at a record, so crypto climbed from its late-Monday lows and bitcoin touched $86,400, which pulled SOL higher with them."
             },
             {
               "tag": "Token news",
-              "text": "The Solana Foundation launched Solana DvP, a free open-source program that swaps the asset and the cash in one step within seconds, instead of the one to two days banks usually need, which gives large institutions a reason to use the network."
+              "text": "The Solana Foundation launched Solana DvP, a free open-source program that swaps the asset and the cash in one step within seconds, instead of the one to two days banks usually need, so large institutions have a reason to use the network, which added buying interest and pushed SOL up."
             },
             {
               "tag": "Token news",
-              "text": "JPMorgan helped shape the program's rules on deadlines and escrow, and the foundation says it passed outside security audits and is ready for real money, which adds credibility with regulated firms."
+              "text": "JPMorgan helped shape the program's rules on deadlines and escrow, and the foundation says it passed outside security audits and is ready for real money, so the program looks more credible to regulated firms, which added to SOL's 0.98% gain."
             }
           ],
           "nextPoints": [
@@ -5233,28 +5233,28 @@
           "days": [
             "2026-10-07"
           ],
-          "mechanism": "Iran's tanker attacks pushed oil, Treasury yields and the dollar up, and bitcoin broke below $84,000. Borrowed bets on a rise were forced shut, and DOGE, the most speculative large coin, fell the most.",
+          "mechanism": "Iran's tanker attacks pushed oil, Treasury yields and the dollar up, and bitcoin broke below $84,000, so borrowed bets on a rise were forced shut and DOGE, the most speculative large coin, fell the most, which pushed DOGE down 6.84%.",
           "outlook": "DOGE likely stays weak while oil holds above $100 and yields sit near 2002 highs. Bitcoin below $83,000 would put $80,000 in play.",
           "points": [
             {
               "tag": "Spillover",
-              "text": "Iran stepped up its attacks on tankers in the Strait of Hormuz and Brent crude rose to about $101.50 a barrel, which pushed up Treasury yields and the dollar."
+              "text": "Iran stepped up its attacks on tankers in the Strait of Hormuz and Brent crude rose to about $101.50 a barrel, so traders expected higher inflation and higher US yields, which made a coin that pays no interest less attractive and pushed DOGE down 6.84%."
             },
             {
               "tag": "Interest rates",
-              "text": "The 10-year Treasury yield climbed three basis points (hundredths of a percent) to 5.31% and the dollar rose against every other G10 currency, which made coins that pay no interest, like DOGE, less attractive."
+              "text": "The 10-year Treasury yield climbed three basis points (hundredths of a percent) to 5.31% and the dollar rose against every other G10 currency, so coins that pay no interest looked worse next to bonds, which pushed DOGE down."
             },
             {
               "tag": "Bitcoin lead",
-              "text": "Bitcoin dropped from about $86,600 to as low as $83,840, below the $84,000 line FxPro called \"a victory for the bears\", and DOGE was already down 5% to about 9 cents by the Asian morning on the way to a 6.84% daily loss."
+              "text": "Bitcoin dropped from about $86,600 to as low as $83,840, below the $84,000 line FxPro called \"a victory for the bears\", so DOGE, which usually follows bitcoin but moves more, was already down 5% to about 9 cents by the Asian morning, which left it on the way to a 6.84% daily loss."
             },
             {
               "tag": "Leverage",
-              "text": "Forced closures of borrowed bets (liquidations) jumped 235% to $547 million in 24 hours, according to CoinGlass, and CoinDesk's Memecoin Index fell about 5% as that selling hit the most speculative coins hardest."
+              "text": "Forced closures of borrowed bets (liquidations) jumped 235% to $547 million in 24 hours, according to CoinGlass, so that selling hit the most speculative coins hardest and CoinDesk's Memecoin Index fell about 5%, which added to DOGE's 6.84% drop."
             },
             {
               "tag": "Fund flows",
-              "text": "Santiment data show wallets holding 1 million to 100 million DOGE cut their balances by 100 million coins from Tuesday onward, so large holders were selling into the drop."
+              "text": "Santiment data show wallets holding 1 million to 100 million DOGE cut their balances by 100 million coins from Tuesday onward, so large holders were selling into the drop, which pushed DOGE lower."
             }
           ],
           "nextPoints": [
@@ -5306,28 +5306,28 @@
           "days": [
             "2026-10-08"
           ],
-          "mechanism": "Fed minutes pointed to another rate hike and a report on US strike plans against Iran pushed oil and yields up. Late in the Hong Kong day a wave of forced selling took bitcoin toward $80,400 and SOL below $110.",
+          "mechanism": "Fed minutes pointed to another rate hike and a report on US strike plans against Iran pushed oil and yields up, so late in the Hong Kong day a wave of forced selling took bitcoin toward $80,400, which pushed SOL down 7.07% and below $110.",
           "outlook": "SOL likely stays weak while bitcoin trades below $83,000. Oil falling back under $100 would be the first relief.",
           "points": [
             {
               "tag": "Interest rates",
-              "text": "Minutes of the Fed's September meeting, released late Wednesday US time, showed most officials expected another rate hike before year-end, which made coins that pay no interest, like SOL, less attractive."
+              "text": "Minutes of the Fed's September meeting, released late Wednesday US time, showed most officials expected another rate hike before year-end, so coins that pay no interest looked less attractive, which pushed SOL down."
             },
             {
               "tag": "Spillover",
-              "text": "A report that the White House asked the Pentagon for strike options against Iran pushed Brent 2% higher to above $102 a barrel and the 10-year Treasury yield up two basis points (hundredths of a percent) to 5.31%."
+              "text": "A report that the White House asked the Pentagon for strike options against Iran pushed Brent 2% higher to above $102 a barrel and the 10-year Treasury yield up two basis points (hundredths of a percent) to 5.31%, so inflation and rate fears rose again, which added selling and pushed SOL lower."
             },
             {
               "tag": "Bitcoin lead",
-              "text": "Bitcoin broke below $83,000, the level FxPro said would confirm sellers were in control, and SOL was already down more than 2% by Thursday's Asian morning."
+              "text": "Bitcoin broke below $83,000, the level FxPro said would confirm sellers were in control, so SOL followed it down and was already down more than 2% by Thursday's Asian morning, which set up the rest of the 7.07% daily loss."
             },
             {
               "tag": "Leverage",
-              "text": "$1.19 billion of crypto bets were forcibly closed in 24 hours, more than $1 billion of them longs (bets on a rise), as bitcoin slid from about $83,200 toward $80,400 late in the day."
+              "text": "$1.19 billion of crypto bets were forcibly closed in 24 hours, more than $1 billion of them longs (bets on a rise), as bitcoin slid from about $83,200 toward $80,400 late in the day, so forced selling piled on, which pushed SOL below $110."
             },
             {
               "tag": "Token news",
-              "text": "SOL broke below 110 USDT, down 5.46% at that point, on its way to a 7.07% daily loss, the worst of the large coins that day."
+              "text": "SOL broke below 110 USDT, down 5.46% at that point, so the $114.42 level that had held earlier in the week was gone, which left SOL on its way to a 7.07% daily loss, the worst of the large coins that day."
             }
           ],
           "nextPoints": [
@@ -5379,28 +5379,28 @@
           "days": [
             "2026-10-09"
           ],
-          "mechanism": "Trump's pledge not to strike Iran before the midterms eased oil and calmed markets, and traders who had bet on further falls were forced to buy back. XRP rose a little more than bitcoin because its ETFs were the only crypto funds still taking in money.",
+          "mechanism": "Trump's pledge not to strike Iran before the midterms eased oil and calmed markets, and traders who had bet on further falls were forced to buy back, so XRP rose a little more than bitcoin because its ETFs were the only crypto funds still taking in money, which pushed XRP up 2.67%.",
           "outlook": "XRP likely trades around $1.38 to $1.40 until next week's CPI report. A daily close above $1.40 is needed for the bounce to hold.",
           "points": [
             {
               "tag": "Risk mood",
-              "text": "President Trump said the US would not attack Iran before the 3 Nov midterm elections, Brent slipped about 1% to around $103, and bitcoin recovered to about $82,500 from Thursday's low near $80,300."
+              "text": "President Trump said the US would not attack Iran before the 3 Nov midterm elections, and Brent slipped about 1% to around $103, so oil-driven selling cooled and bitcoin recovered to about $82,500 from Thursday's low near $80,300, which pulled XRP higher with it."
             },
             {
               "tag": "Leverage",
-              "text": "About 78% of the roughly $25 million of crypto bets liquidated in the four hours after Trump's post were short bets (bets on a fall), so forced buying added to the bounce."
+              "text": "About 78% of the roughly $25 million of crypto bets liquidated in the four hours after Trump's post were short bets (bets on a fall), so those traders were forced to buy back, which added to the bounce and pushed XRP up."
             },
             {
               "tag": "Fund flows",
-              "text": "US spot XRP ETFs took in $8 million on Thursday while bitcoin, ether and zcash funds lost money, which gave XRP a steady buyer that other coins lacked."
+              "text": "US spot XRP ETFs took in $8 million on Thursday while bitcoin, ether and zcash funds lost money, so XRP had a steady buyer that other coins lacked, which pushed XRP up 2.67%, a little more than bitcoin."
             },
             {
               "tag": "Leverage",
-              "text": "XRP futures open interest (the value of open bets) fell to 2.3 billion XRP from 2.4 billion, so the rise came from spot buying and short covering rather than new borrowed bets."
+              "text": "XRP futures open interest (the value of open bets) fell to 2.3 billion XRP from 2.4 billion, so the rise came from spot buying and short covering rather than new borrowed bets, which still left XRP up 2.67%."
             },
             {
               "tag": "Token news",
-              "text": "XRP climbed back above $1.40 from a weekly low near $1.32, holding above its 200-day average at $1.38, for a 2.67% daily gain."
+              "text": "XRP climbed back above $1.40 from a weekly low near $1.32 and held above its 200-day average at $1.38, so the bounce cleared a level buyers watch, which pushed XRP up 2.67% on the day."
             }
           ],
           "nextPoints": [
@@ -5452,24 +5452,24 @@
           "days": [
             "2026-10-10"
           ],
-          "mechanism": "Crypto kept recovering from Thursday's sell-off as the Iran and oil worries cooled, and DOGE rose more than bitcoin because it swings harder in both directions. Futures traders had also been leaning toward a rebound.",
+          "mechanism": "Crypto kept recovering from Thursday's sell-off as the Iran and oil worries cooled, and DOGE rose more than bitcoin because it swings harder in both directions, which pushed DOGE up 2.09% so far on the Hong Kong day.",
           "outlook": "DOGE likely trades between $0.084 and $0.088 over the weekend. Bitcoin reclaiming $83,000 would help it push higher.",
           "points": [
             {
               "tag": "Spillover",
-              "text": "Trump said on 9 Oct that a deal would supply Russian diesel to the US and world markets and the US temporarily eased sanctions on Russian fuel exports, a possible relief on fuel costs after a week when oil drove crypto's selling."
+              "text": "Trump said on 9 Oct that a deal would supply Russian diesel to the US and world markets and the US temporarily eased sanctions on Russian fuel exports, so fuel-cost fears eased after a week when oil drove crypto's selling, which helped DOGE bounce."
             },
             {
               "tag": "Bitcoin lead",
-              "text": "Bitcoin rose 0.93% to about $82,515 by Saturday morning in Asia, and DOGE gained more, 1.68% to $0.08568, because it usually swings harder than bitcoin."
+              "text": "Bitcoin rose 0.93% to about $82,515 by Saturday morning in Asia, so DOGE, which usually follows bitcoin but swings harder, gained more, which pushed DOGE up 1.68% to $0.08568 in that 24-hour window and 2.09% on the Hong Kong day so far."
             },
             {
               "tag": "Leverage",
-              "text": "CoinGlass's DOGE long-to-short ratio stood at 0.90 on Friday, near its highest in more than a month, and funding rates stayed positive, which showed futures traders positioning for a rebound."
+              "text": "CoinGlass's DOGE long-to-short ratio stood at 0.90 on Friday, near its highest in more than a month, and funding rates stayed positive, so futures traders were already positioning for a rebound, which added buying and pushed DOGE up."
             },
             {
               "tag": "Token news",
-              "text": "DOGE held the $0.084 support on Friday and climbed back to about $0.086, its 100-day average and first resistance, for a 2.09% gain so far on the Hong Kong day."
+              "text": "DOGE held the $0.084 support on Friday and climbed back to about $0.086, its 100-day average and first resistance, so the bounce held a level buyers watch, which left DOGE up 2.09% so far on the Hong Kong day."
             }
           ],
           "nextPoints": [
@@ -5522,28 +5522,28 @@
           "days": [
             "2026-10-09"
           ],
-          "mechanism": "Thursday did most of the damage (down 7.07%), when hawkish Fed minutes, an Iran strike report and a $1.19 billion liquidation wave hit together. Wednesday (down 3.13%) on Iran's tanker attacks and Monday (down 1.83%) on a strong dollar added the rest. The common thread was oil pushing yields and rate-hike bets up while ETF money left SOL.",
+          "mechanism": "Thursday did most of the damage (down 7.07%), when hawkish Fed minutes, an Iran strike report and a $1.19 billion liquidation wave hit together, and Wednesday (down 3.13%) and Monday (down 1.83%) added the rest, so oil pushed yields and rate-hike bets up while ETF money left SOL, which left SOL down about 9.6% for the week.",
           "outlook": "SOL likely stays below $114 while ETF outflows continue and bitcoin is stuck under $83,000. The 14 Oct CPI report and the 28 Oct Fed decision set the next direction.",
           "points": [
             {
               "tag": "Interest rates",
-              "text": "Thursday did the most damage, a 7.07% drop, after Fed minutes showed most officials expect another rate hike by year-end and a report on US strike plans against Iran pushed oil and yields up."
+              "text": "On Thursday Fed minutes showed most officials expect another rate hike by year-end and a report on US strike plans against Iran pushed oil and yields up, so a coin that pays no interest looked worse next to bonds, which pushed SOL down 7.07%, the week's biggest drop."
             },
             {
               "tag": "Leverage",
-              "text": "On the same day $1.19 billion of crypto bets were forcibly closed and SOL broke below $110, losing the $114.42 level that had held earlier in the week."
+              "text": "On the same day $1.19 billion of crypto bets were forcibly closed and SOL broke below $110, so the $114.42 level that had held earlier in the week was gone, which added forced selling and pushed SOL down 7.07%."
             },
             {
               "tag": "Spillover",
-              "text": "Wednesday added a 3.13% fall after Iran stepped up attacks on tankers in the Strait of Hormuz, which pushed Brent to about $101.50 and lifted Treasury yields and the dollar."
+              "text": "On Wednesday Iran stepped up attacks on tankers in the Strait of Hormuz, so Brent rose to about $101.50 and Treasury yields and the dollar rose with it, which made SOL less attractive and pushed it down 3.13%."
             },
             {
               "tag": "Fund flows",
-              "text": "US spot SOL ETFs lost money four days in a row through 8 Oct, $19.9 million across five trading days, after a record $188 million inflow in late September, so a big buyer turned seller."
+              "text": "US spot SOL ETFs lost money four days in a row through 8 Oct, $19.9 million across five trading days, after a record $188 million inflow in late September, so a big buyer turned seller, which left SOL with less support and it fell about 9.6% on the week."
             },
             {
               "tag": "Bitcoin lead",
-              "text": "SOL fell about 9.6% against bitcoin's 3.1%, and record network use of 1.88 million daily active addresses did not stop holders from selling."
+              "text": "SOL fell about 9.6% against bitcoin's 3.1%, and record network use of 1.88 million daily active addresses did not stop holders from selling, so the network's own activity was not enough, which left SOL the weakest of the large coins."
             }
           ],
           "nextPoints": [
